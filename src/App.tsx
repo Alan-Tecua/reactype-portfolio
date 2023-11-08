@@ -4,8 +4,8 @@ import './App.css';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './About';
-import Projects from './Projects';
+import About from './pages/About';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 function App() {
