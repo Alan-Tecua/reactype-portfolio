@@ -1,5 +1,5 @@
 function Projects() {
-  return <Work />;
+  return;
 }
 
 export default Projects;
