@@ -6,6 +6,6 @@ function CareerBg() {
 
     </section>
   );
-};
+}
 
 export default CareerBg;
