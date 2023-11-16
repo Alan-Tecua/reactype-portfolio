@@ -13,7 +13,8 @@ interface ModalData {
 
 function Modal({title, description, imageUrl, onClose, tags, url, source}: ModalData) {
   return (
-    <div>
+    <div className="work__modal-content">
+      <i onClick={onClose} className="uil uil-timerwork__modal-close"></i>
 
     </div>
   )
