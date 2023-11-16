@@ -1,5 +1,5 @@
-import emailjs from "@emailjs/browser";
 import { useRef, FormEvent } from "react";
+import emailjs from "@emailjs/browser";
 import "./contactdata.css";
 
 export const ContactData = () => {
@@ -74,10 +74,10 @@ export const ContactData = () => {
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">jukemori</span>
+              <span className="contact__card-data">AlanSanchez</span>
 
               <a
-                href="https://m.me/jukemori"
+                href="https://m.me/AlanSanchez"
                 className="contact__button"
                 target="_blank" rel="noreferrer"
               >
@@ -149,5 +149,3 @@ export const ContactData = () => {
     </section>
   );
 };
-
-export default ContactData();
