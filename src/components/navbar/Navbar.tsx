@@ -65,7 +65,7 @@ function Navbar() {
 
             <li className="nav__item">
               <NavLink
-                to="/blogs"
+                to="/curious"
                 className={({ isActive }) =>
                   isActive ? "nav__link active-link" : "nav__link"
                 }
