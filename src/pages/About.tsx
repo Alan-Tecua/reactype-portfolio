@@ -7,7 +7,7 @@ const About = () => {
 
       <div className="about__container container grid">
         <img
-          src="https://res.cloudinary.com/dg1bjmdp8/image/upload/v1693478106/Portfolio/Public/about/about-main.jpg"
+          src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1700232865/Portfolio/about/alan-roundpic-color.png"
           alt="alan_about_img"
           className="about__img"
           loading="lazy"
