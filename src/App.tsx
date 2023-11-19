@@ -1,11 +1,13 @@
 import React from 'react';
-// import logo from './logo.svg';
 import { Route } from 'react-router-dom';
 import SlideRoutes from "react-slide-routes";
 
+
+// components
 import Navbar from './components/navbar/Navbar';
 import Footer from "./components/footer/Footer";
 
+// routes
 import Home from './pages/Home';
 import About from './pages/About';
 // import Projects from './pages/Projects';
