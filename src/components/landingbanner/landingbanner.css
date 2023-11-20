@@ -1,0 +1,13 @@
+.landingB {
+  display: flex;
+  height: 90svh;
+  align-items: center;
+}
+
+.landingB__img {
+  background: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px var(--white-color-light);
+}
