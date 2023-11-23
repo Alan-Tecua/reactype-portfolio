@@ -4,10 +4,31 @@
   align-items: center;
 }
 
+.landingB__container {
+  row-gap: 7rem !important;
+}
+
+.landingB__content {
+  grid-template-columns: 110px repeat (2,1fr);
+  column-gap: 2rem;
+  align-items: center;
+}
+
 .landingB__img {
   background: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 0 9px var(--white-color-light);
+  filter: blur(4px);
+}
+
+.landingB__hand {
+  width: 38px;
+  height: 38px;
+  margin-left: 0.4rem;
+}
+
+.landingB__title {
+  font-size: var(--big-font-size);
 }
