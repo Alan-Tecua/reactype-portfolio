@@ -21,7 +21,7 @@
   /*========== Font and typography ==========*/
   --body-font: "Lato", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*RATIO: .5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -154,7 +154,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--orange-color);
+  /* background-color: var(--orange-color); */
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -162,8 +162,17 @@ img {
   transition: background-color 0.3s ease;
 }
 
+.button {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+}
+
 .button:hover {
-  background-color: var(--orange-color-light);
+  /* background-color: var(--orange-color-light); */
+  background-color: rgba(221, 14, 125, 0.62);
 }
 
 .button__icon {
