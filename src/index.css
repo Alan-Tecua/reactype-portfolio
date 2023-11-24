@@ -1,6 +1,7 @@
 
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Work+Sans:400,700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -15,8 +16,8 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
-  --orange-color:  hsl(	24, 100%, 50%);
-  --orange-color-light:  hsl(	24, 100%, 60%);
+  --magenta-color: hsl(343,92,46);
+  --magenta-color-light:  hsl(343, 91%, 58%);
 
   /*========== Font and typography ==========*/
   --body-font: "Lato", sans-serif;
@@ -36,8 +37,8 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*========== Margins Bottom ==========*/
+  /*RATIO: .5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -154,7 +155,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  /* background-color: var(--orange-color); */
+  /* background-color: var(--magenta-color); */
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -163,16 +164,21 @@ img {
 }
 
 .button {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.9px);
-  -webkit-backdrop-filter: blur(4.9px);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
 }
 
+
+
 .button:hover {
-  /* background-color: var(--orange-color-light); */
-  background-color: rgba(221, 14, 125, 0.62);
+  background: rgba(226, 10, 72, 0.56);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
 }
 
 .button__icon {
