@@ -13,8 +13,8 @@
   --sat: 1%;
   --title-color: hsl(var(--hue), var(--sat), 91%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --text-color: hsl(var(--hue), var(--sat), 91%);
+  --body-color: hsl(var(--hue), var(--sat), 13%);
   --container-color: #fff;
   --magenta-color: hsl(343,92,46);
   --magenta-color-light:  hsl(343, 91%, 58%);
@@ -94,10 +94,13 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+}
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-normal);
 }
 
 ul {
@@ -157,15 +160,14 @@ img {
   display: inline-block;
   /* background-color: var(--magenta-color); */
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 1.1rem 3rem;
+  border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: background-color 0.3s ease;
 }
 
 .button {
   background: rgba(255, 255, 255, 0.07);
-  border-radius: 5px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
@@ -174,8 +176,7 @@ img {
 
 
 .button:hover {
-  background: rgba(226, 10, 72, 0.56);
-  border-radius: 16px;
+  background: rgba(243, 236, 238, 0.582);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.4px);
   -webkit-backdrop-filter: blur(4.4px);

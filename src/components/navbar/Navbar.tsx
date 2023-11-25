@@ -4,16 +4,16 @@ import "./navbar.css";
 
 function Navbar() {
   useEffect(() => {
-    const navbar = document.querySelector(".header");
+    const navbar = document.querySelector(".navbar");
 
     const isScreenWidthAboveThreshold = window.innerWidth > 768;
 
     if (navbar && isScreenWidthAboveThreshold) {
       const handleScroll = () => {
         if (window.scrollY >= 80) {
-          navbar.classList.add("scroll-header");
+          navbar.classList.add("scroll-navbar");
         } else {
-          navbar.classList.remove("scroll-header");
+          navbar.classList.remove("scroll-navbar");
         }
       };
 
@@ -25,7 +25,7 @@ function Navbar() {
   }, []);
 
   return (
-    <header className="header">
+    <header className="navbar">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo"></NavLink>
         <div className="nav__menu">
