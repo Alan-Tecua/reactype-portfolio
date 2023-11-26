@@ -15,6 +15,16 @@
   column-gap: 1rem;
 }
 
+.nav__toggle {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 1rem;
+}
+/*========== Icons ==========*/
 .nav__logo {
   background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg);
   background-size: cover;
@@ -26,6 +36,23 @@
 
 .nav__contact-icon{
   background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700925200/Portfolio/icons/Mail-light-logo_mtbmwa.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.icon__linkedin{
+  background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700925202/Portfolio/icons/Linkedin-light-logo_ugs1my.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.icon__github{
+  background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700925201/Portfolio/icons/Github-light-logo_kuyxfz.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
