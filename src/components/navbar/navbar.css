@@ -4,7 +4,8 @@
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background: rgba(43, 43, 43, 0);
+  transition: .3s;
 }
 
 .nav {
@@ -45,9 +46,17 @@
 .nav__icon {
   display: none;
 }
+
+.scroll-navbar {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .2);
+  background-color: var(--body-color);
+  transition: .3s;
+}
+
 /*========== Icons ==========*/
 .icons {
-  justify-content: end;
+  justify-content: flex-end;
+  margin-right: 0%;
 }
 
 .nav__logo {

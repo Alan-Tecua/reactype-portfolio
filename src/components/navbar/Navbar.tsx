@@ -86,10 +86,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="nav container icons">
+        <div className="nav icons">
           <NavLink to="/contact" className="nav__contact-icon"></NavLink>
-          <a className="icon__github" rel="stylesheet" href="https://github.com/Alan-Tecua" />
-          <a className="icon__linkedin" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" />
+          <a className="icon__github" rel="stylesheet" href="https://github.com/Alan-Tecua" target="blank_"/>
+          <a className="icon__linkedin" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" target="blank_"/>
         </div>
       </nav>
     </header>
