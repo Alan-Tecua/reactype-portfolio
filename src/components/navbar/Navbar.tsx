@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <nav className="nav container">
-      <NavLink to="/" className="nav__logo"></NavLink>
+      {/* <NavLink to="/" className="nav__logo"></NavLink> */}
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
@@ -37,7 +37,7 @@ function Navbar() {
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-estate nav__icon"></i> Home
+                <i className="uil uil-estate nav__icon"></i> HOME
               </NavLink>
             </li>
 
@@ -48,7 +48,7 @@ function Navbar() {
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-user nav__icon"></i> About
+                <i className="uil uil-user nav__icon"></i> ABOUT
               </NavLink>
             </li>
 
@@ -59,7 +59,7 @@ function Navbar() {
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Projects
+                <i className="uil uil-scenery nav__icon"></i> PROJECTS
               </NavLink>
             </li>
 
@@ -70,7 +70,7 @@ function Navbar() {
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-document-layout-left nav__icon"></i> Curious
+                <i className="uil uil-document-layout-left nav__icon"></i> CURIOUS
               </NavLink>
             </li>
 
@@ -81,14 +81,16 @@ function Navbar() {
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <i className="uil uil-message nav__icon"></i> CONTACT
               </NavLink>
             </li>
           </ul>
         </div>
-        <NavLink to="/contact" className="nav__contact-icon"></NavLink>
-        <a className="icon__github" rel="stylesheet" href="https://github.com/Alan-Tecua" />
-        <a className="icon__linkedin" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" />
+        <div className="nav container icons">
+          <NavLink to="/contact" className="nav__contact-icon"></NavLink>
+          <a className="icon__github" rel="stylesheet" href="https://github.com/Alan-Tecua" />
+          <a className="icon__linkedin" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" />
+        </div>
       </nav>
     </header>
   );
