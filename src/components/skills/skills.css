@@ -1,0 +1,40 @@
+.skill__container {
+  grid-template-columns: repeat(3,270px);
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.skill__detail {
+  position: relative;
+  background-color: var(--magenta-color);
+  background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg);
+  background-repeat: no-repeat;
+  image-orientation: center;
+  padding: 6rem 0 2rem 2.5rem;
+  border-radius: 5px;
+}
+
+/*----------- Modal -----------*/
+.skill__modal {
+  position: fixed;
+  background: rgba(30, 30, 30, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  z-index: var(--z-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.skill__icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  column-gap: 1.2rem;
+}
