@@ -7,14 +7,7 @@ const LandingBanner = () => {
       <div className="landingB__contaier container grid">
         <div className="landingB__content grid">
 
-          <div className="landingB__img">
-          <img
-          src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg"
-          alt="alan_logo"
-          className="about__img"
-          loading="lazy"
-        />
-          </div>
+          <div className="landingB__img"></div>
 
           <LandingInfo/>
         </div>
