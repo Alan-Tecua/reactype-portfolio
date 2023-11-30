@@ -1,11 +1,10 @@
-import React from 'react';
+import "./index.css";
 import { Route } from 'react-router-dom';
 import SlideRoutes from "react-slide-routes";
 
 
 // components
 import Navbar from './components/navbar/Navbar';
-import Footer from "./components/footer/Footer";
 
 // routes
 import Home from './pages/Home';
@@ -18,18 +17,14 @@ function App() {
   return (
     <>
     <Navbar />
-
       <SlideRoutes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About/>} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
-          {/* <Route path="/curious" element={<Curious/>}/> */}
-          <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About/>} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
+        {/* <Route path="/curious" element={<Curious/>}/> */}
+        <Route path="/contact" element={<Contact />} />
       </SlideRoutes>
-
-      <Footer/>
     </>
-
   );
 }
 
