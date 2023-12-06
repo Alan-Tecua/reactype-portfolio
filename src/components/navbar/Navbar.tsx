@@ -73,17 +73,6 @@ function Navbar() {
                 <i className="uil uil-document-layout-left nav__icon"></i> CURIOUS
               </NavLink>
             </li>
-
-            <li className="nav__item">
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  isActive ? "nav__link active-link" : "nav__link"
-                }
-              >
-                <i className="uil uil-message nav__icon"></i> CONTACT
-              </NavLink>
-            </li>
           </ul>
         </div>
         <div className="nav icons">
