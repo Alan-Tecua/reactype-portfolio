@@ -8,46 +8,8 @@ function Skills() {
   }
 
   return (
-    // <section className="skill section" id="skill">
-    //   <h1>Technical Skills <span>/</span></h1>
-
-    //   <div className="skill__container container grid">
-    //     <div className="skill__data">
-    //       <div>
-    //         <h3 className="skill__category">
-    //           Design
-    //         </h3>
-    //         <div>
-    //           <span className="skill__detail" onClick={() => toggleTab(1)}>Details</span>
-    //         </div>
-
-    //         <div className={
-    //           toggleState === 1 ? "skill__modal active-modal" : "skill__modal"
-    //         }>
-    //           <div className="skill__modal-details">
-    //             <i onClick={() => toggleTab(0)} className="uil uil-times skill__modal-close"></i>
-
-    //             <h3 className="skill__modal-title">Design</h3>
-    //             <p className="skill__modal-text">
-    //               Lorem Ipsum my ave tonitruum
-    //             </p>
-    //             <div className="skill__icons">
-    //               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1700920677/Portfolio/icons/figma-logo_gr7pwi.svg" alt="Figma"/>
-    //               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246924/Portfolio/icons/Illustrato-icon_ya45rw.svg" alt="Illustrator" />
-    //               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246929/Portfolio/icons/Photoshop-icon_xfcnqd.svg" alt="Photoshop" />
-    //               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246933/Portfolio/icons/Premiere-icon_yxsqzl.svg" alt="Premiere" />
-    //             </div>
-    //           </div>
-
-    //         </div>
-
-    //       </div>
-    //     </div>
-
-    //   </div>
-    // </section>
-
-    <section className="skill section" id="blur">
+    <section className="skill section" id="skills">
+      <h1 className="section__title">Technical Skills <span>/</span></h1>
       <div className="skill__container container grid">
         <div className="skill__content">
           <div>
@@ -58,7 +20,7 @@ function Skills() {
           </div>
 
           <span className="skill__button" onClick={() => toggleTab(1)}>
-            More...
+            See more...
           </span>
         </div>
 
@@ -89,15 +51,14 @@ function Skills() {
 
         <div className="skill__content">
           <div>
-            <i className="uil uil-arrow skill__icon"></i>
+            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243444/Portfolio/icons/BESkills-light-icon_cdgnj7.svg" alt="Backend" width={150}/>
             <h3 className="skill__title">
-              Backend <br /> Development
+              Backend Development
             </h3>
           </div>
 
           <span onClick={() => toggleTab(2)} className="skill__button">
-            View More
-            <i className="uil uil-arrow-right skill__button-icon"></i>
+            See more...
           </span>
         </div>
 
@@ -123,15 +84,15 @@ function Skills() {
 
         <div className="skill__content">
           <div>
-            <i className="uil uil-english-to-chinese skill__icon"></i>
+            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243440/Portfolio/icons/FESkills-light-icon_uo46il.svg" alt="Frontend" width={150} />
             <h3 className="skill__title">
-              Backend <br /> Development
+              Frontend <br /> Development
             </h3>
           </div>
 
           <span onClick={() => toggleTab(3)} className="skill__button">
-            View More
-            <i className="uil uil-arrow-right skill__button-icon"></i>
+            See more...
+            {/* <i className="uil uil-arrow-right skill__button-icon"></i> */}
           </span>
         </div>
 
