@@ -2,11 +2,9 @@ import "./index.css";
 import { Route } from 'react-router-dom';
 import SlideRoutes from "react-slide-routes";
 
-
-// components
 import Navbar from './components/navbar/Navbar';
+import LoadingScreen from "./components/loading/LoadingScreen";
 
-// routes
 import Home from './pages/Home';
 import About from './pages/About';
 // import Projects from './pages/Projects';
@@ -15,6 +13,7 @@ import About from './pages/About';
 function App() {
   return (
     <>
+    <LoadingScreen/>
     <Navbar />
       <SlideRoutes>
         <Route path="/" element={<Home />} />
