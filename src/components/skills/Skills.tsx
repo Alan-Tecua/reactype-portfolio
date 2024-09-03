@@ -9,7 +9,10 @@ function Skills() {
 
   return (
     <section className="skill section" id="skills">
-      <h1 className="section__title">Technical Skills <span>/</span></h1>
+      <div className="flex__text container">
+        <h1 className="section__title">Technical Skills <span className="line__accent">/</span></h1>
+        <p className="section__subtitle__nm">My capabilities</p>
+      </div>
       <div className="skill__container container grid">
         <div className="skill__content">
           <div>

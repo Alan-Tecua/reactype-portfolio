@@ -140,9 +140,26 @@ img {
   margin-bottom: 4rem;
 }
 
+.section__subtitle__nm {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-left: 1rem;
+}
+
 .section__title,
 .section__subtitle {
   text-align: center;
+}
+
+.line__accent {
+  color: #E20A48;
+  font-weight: bold;
+}
+
+.flex__text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 /*----------- LAYOUT -----------*/
@@ -157,6 +174,7 @@ img {
   gap: 1.5rem;
 }
 
+
 /*----------- BUTTONS -----------*/
 .button {
   display: inline-block;
@@ -169,8 +187,8 @@ img {
 }
 
 .button {
-  background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);
 }

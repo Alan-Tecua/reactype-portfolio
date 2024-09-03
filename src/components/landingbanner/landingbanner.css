@@ -1,44 +1,43 @@
-.landingB {
+.landing {
   display: flex;
   height: 90svh;
   align-items: center;
 }
 
-.landingB__container {
+.landing__container {
   row-gap: 7rem !important;
 }
 
-.landingB__content {
-  grid-template-columns: 100px repeat(2,1fr);
+.landing__content {
+  grid-template-columns: 50rem repeat(2,1fr);
   column-gap: 2rem;
   align-items: center;
 }
 
-.landingB__hand {
+.landing__hand {
   width: 38px;
   height: 38px;
   margin-left: 0.4rem;
 }
 
-.landingB__title {
+.landing__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0-25);
 }
 
-.landingB__subtitle {
+.landing__subtitle {
   position: relative;
   font-size: var(--h3-font-size);
-  padding-left: 5.4rem;
+  /* padding-left: 5.4rem; */
   font-weight: var(--font-normal);
-  margin-bottom: var(--mb-1);
 }
 
-.landingB__description {
+.landing__description {
   max-width: 400px;
   margin-bottom: var(--mb-3)
 }
 
-.landingB__subtitle::before {
+/* .landing__subtitle::before {
   content: "";
   position: absolute;
   width: 70px;
@@ -46,11 +45,11 @@
   background-color: var(--text-color);
   left: 0;
   top: 1rem;
-}
+} */
 
 /*----------- Icons -----------*/
 
-.landingB__img {
+.landing__img {
   background: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -67,32 +66,32 @@
 
 /* For large devices  */
 @media screen and (max-width: 992px) {
-  .landingB__content{
+  .landing__content{
     grid-template-columns: 100px repeat(2,1fr);
     column-gap: 1.25rem;
   }
 
-  .landingB__hand {
+  .landing__hand {
     width: 26px;
     height: 26px;
   }
 
-  .landingB__subtitle {
+  .landing__subtitle {
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
 
-  .landingB__subtitle::before {
+  .landing__subtitle::before {
     width: 42px;
     top: 0.8rem;
   }
 
-  .landingB__description {
+  .landing__description {
     max-width: initial;
     margin-bottom: var(--mb-2-5);
   }
 
-  .landingB__img {
+  .landing__img {
     width: 250px;
     height: 250px;
     box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
@@ -102,20 +101,20 @@
 
 /* For medium devices  */
 @media screen and (max-width: 768px) {
-  .landingB__content {
+  .landing__content {
     grid-template-columns: 0.5fr 3fr;
   }
 
-  .landingB__img {
+  .landing__img {
     order: initial;
     justify-self: initial;
   }
 
-  .landingB__data {
+  .landing__data {
     grid-column: 1/3;
   }
 
-  .landingB__img {
+  .landing__img {
     box-shadow: inset 0 0 0 6px var(--orange-color-light);
     width: 200px;
     height: 200px;
@@ -126,12 +125,12 @@
 
 /* For small devices  */
 @media screen and (max-width: 350px) {
-  .landingB__img {
+  .landing__img {
     width: 180px;
     height: 180px;
   }
 
-  .landingB__hand {
+  .landing__hand {
     width: 22px;
     height: 22px;
   }

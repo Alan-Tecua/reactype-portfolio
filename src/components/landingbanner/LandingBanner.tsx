@@ -3,10 +3,10 @@ import LandingInfo from './LandingInfo';
 
 const LandingBanner = () => {
   return (
-    <section className="landingB section" id="landingB">
-      <div className="landingB__container container grid">
-        <div className="landingB__content grid">
-          <div className="landingB__img"></div>
+    <section className="landing section" id="landing">
+      <div className="landing__container container grid">
+        <div className="landing__content grid">
+          <div className="landing__img"></div>
           <LandingInfo/>
         </div>
       </div>

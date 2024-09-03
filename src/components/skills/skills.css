@@ -1,5 +1,5 @@
 .skill__container {
-  grid-template-columns: repeat(1, 270px);
+  grid-template-columns: repeat(3, 270px);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -10,7 +10,7 @@
   background-color: var(--darkgray-color);
   border-color: var(--darkgray-light-color);
   padding: 3rem 0 2rem 2.5rem;
-  width: 30rem;
+  /* width: 30rem; */
   border-radius: .4rem;
 }
 

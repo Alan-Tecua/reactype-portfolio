@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: rgba(43, 43, 43, 0);
-  transition: .3s;
+  /* background-color: var(--body-color); */
+  /* background: rgba(43, 43, 43, 0); */
 }
 
 .nav {
@@ -97,7 +97,7 @@
 /*----------- BREAKPOINTS -----------*/
 
 @media screen and (max-width: 768px) {
-  .header {
+  .navbar {
     top: initial;
     bottom: 0;
   }
@@ -121,7 +121,7 @@
 
   .nav__list {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
 
