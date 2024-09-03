@@ -47,7 +47,7 @@
   top: 1rem;
 } */
 
-/*----------- Icons -----------*/
+/* Icons */
 
 .landing__img {
   background: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1700492992/Portfolio/home/Alan-light-logo_lhjxmf.svg);
@@ -62,7 +62,7 @@
   height: 100px;
 }
 
-/*----------- Breakpoints -----------*/
+/* Breakpoints */
 
 /* For large devices  */
 @media screen and (max-width: 992px) {

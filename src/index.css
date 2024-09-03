@@ -1,13 +1,13 @@
 
-/*----------- GOOGLE FONTS -----------*/
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Work+Sans:400,700&display=swap');
 
-/*----------- VARIABLES CSS -----------*/
+/* VARIABLES CSS */
 :root {
   --header-height: 3rem;
 
-  /*----------- Colors -----------*/
+  /* Colors */
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 1%;
@@ -21,7 +21,7 @@
   --darkgray-color:  hsl(345, 6%, 13%);
   --darkgray-color-light:  hsl(345, 6%, 26%);
 
-  /*----------- Font and typography -----------*/
+  /* Font and typography */
   --body-font: "Lato", sans-serif;
 
   /*RATIO: .5rem = 8px | 1rem = 16px ...*/
@@ -34,12 +34,12 @@
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
-  /*----------- Font weight -----------*/
+  /* Font weight */
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 700;
 
-  /*----------- Margins Bottom -----------*/
+  /* Margins Bottom */
   /*RATIO: .5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
@@ -50,7 +50,7 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  /*----------- z index -----------*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
@@ -69,7 +69,7 @@
   }
 }
 
-/*----------- BASE -----------*/
+/* BASE */
 * {
   margin: 0;
   padding: 0;
@@ -124,7 +124,7 @@ img {
   height: auto;
 }
 
-/*----------- REUSABLE CSS CLASSES -----------*/
+/* REUSABLE CSS CLASSES */
 .section {
   padding: 6rem 0 2rem;
 }
@@ -162,7 +162,7 @@ img {
   margin-bottom: 2rem;
 }
 
-/*----------- LAYOUT -----------*/
+/* LAYOUT */
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -175,7 +175,7 @@ img {
 }
 
 
-/*----------- BUTTONS -----------*/
+/* BUTTONS */
 .button {
   display: inline-block;
   /* background-color: var(--magenta-color); */
@@ -211,7 +211,7 @@ img {
   align-items: center;
 }
 
-/*----------- BREAKPOINTS -----------*/
+/* BREAKPOINTS */
 
 /* large devices */
 @media screen and (max-width: 992px) {
@@ -260,7 +260,7 @@ img {
   }
 }
 
-/*----------- SCROLLBAR -----------*/
+/* SCROLLBAR */
 
 body::-webkit-scrollbar {
   width: 0.50rem;

@@ -116,13 +116,13 @@
   font-size: var(--small-font-size);
 }
 
-/* ----------ACTIVE MODAL----------- */
+/* Modal */
 .active-modal {
   opacity: 1;
   visibility: visible;
 }
 
-/* ----------ICONS----------- */
+/* Icons */
 
 .skill__icons {
   width: 30px;
@@ -132,7 +132,8 @@
   column-gap: 3rem;
 }
 
-/* ----------BREAKPOINTS----------- */
+/* Breakpoints */
+
 /* large */
 @media screen and (max-width: 992px) {
   .skill__container {
