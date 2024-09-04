@@ -6,8 +6,10 @@
 
 .skill__content {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--darkgray-color);
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  /* background: rgba(255, 255, 255, 0.2); */
+  /* background-color: var(--darkgray-color); */
+  background-color: var(--body-color);
   border-color: var(--darkgray-light-color);
   padding: 3rem 0 2rem 2.5rem;
   /* width: 30rem; */
@@ -42,8 +44,10 @@
 }
 
 .skill__button:hover .skill__button-icon {
-  transform: translateX(00.25rem);
+  transform: translateX(0.25rem);
 }
+
+
 
 .skill__modal {
   position: fixed;

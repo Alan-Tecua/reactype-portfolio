@@ -1,4 +1,5 @@
 import "./careerbg.css";
+import { useState } from "react";
 
 function CareerBg() {
   return (

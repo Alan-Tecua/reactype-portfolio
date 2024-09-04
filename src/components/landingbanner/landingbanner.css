@@ -76,7 +76,7 @@
     height: 26px;
   }
 
-  .landing__subtitle {
+  /* .landing__subtitle {
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
@@ -84,7 +84,7 @@
   .landing__subtitle::before {
     width: 42px;
     top: 0.8rem;
-  }
+  } */
 
   .landing__description {
     max-width: initial;

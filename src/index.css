@@ -90,8 +90,9 @@ textarea {
 
 body {
   /* background-color: var(--body-color); */
-  background-color: #231F20;
-  background-image: linear-gradient(to top left, rgba(221, 15, 67, 0.61), rgba(255,0,0,0), rgba(255,0,0,0), rgba(221, 15, 67, 0.61));
+  /* background-color: #231F20; */
+  background-color: #191919;
+  /* background-image: linear-gradient(to top left, rgba(221, 15, 67, 0.61), rgba(255,0,0,0), rgba(255,0,0,0), rgba(221, 15, 67, 0.61)); */
   color: var(--text-color);
 }
 
@@ -124,7 +125,7 @@ img {
   height: auto;
 }
 
-/* REUSABLE CSS CLASSES */
+/* CSS Classes */
 .section {
   padding: 6rem 0 2rem;
 }
@@ -175,7 +176,7 @@ img {
 }
 
 
-/* BUTTONS */
+/* Btns */
 .button {
   display: inline-block;
   /* background-color: var(--magenta-color); */
@@ -206,12 +207,12 @@ img {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
+.button__flex {
   display: inline-flex;
   align-items: center;
 }
 
-/* BREAKPOINTS */
+/* Breakpoints */
 
 /* large devices */
 @media screen and (max-width: 992px) {
@@ -260,7 +261,7 @@ img {
   }
 }
 
-/* SCROLLBAR */
+/* Scrollbar */
 
 body::-webkit-scrollbar {
   width: 0.50rem;
