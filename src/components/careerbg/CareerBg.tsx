@@ -1,6 +1,7 @@
 import "./careerbg.css";
 import { useState } from "react";
-
+import { Exp, Edu } from "./Data";
+import CareerItems  from "./CareerItems";
 function CareerBg() {
 
   const [toggleState, setToggleState] = useState(1);
@@ -13,7 +14,8 @@ function CareerBg() {
         <h1 className="section__title">Career Background <span className="line__accent">/</span></h1>
         <p className="section__subtitle__nm">My Story</p>
       </div>
-      <div className="background__container container">
+
+      <div data-aos="fade-up" className="background__container container">
         <div className="background__tabs">
           <div
             className={
@@ -23,10 +25,8 @@ function CareerBg() {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap background__icon"></i>
             Education
           </div>
-
           <div
             className={
               toggleState === 2
@@ -35,11 +35,10 @@ function CareerBg() {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt background__icon"></i>
             Experience
           </div>
         </div>
-        {/* <div className="background__sections">
+        <div className="background__sections">
           <div
             className={
               toggleState === 1
@@ -47,8 +46,8 @@ function CareerBg() {
                 : "background__content "
             }
           >
-            {Educations.map((item) => {
-              return <BackgroundItems key={item.id} item={item} />;
+            {Edu.map((item) => {
+              return <CareerItems key={item.id} item={item} />;
             })}
           </div>
           <div
@@ -58,11 +57,11 @@ function CareerBg() {
                 : "background__content "
             }
           >
-            {Experiences.map((item) => {
-              return <BackgroundItems key={item.id} item={item} />;
+            {Exp.map((item) => {
+              return <CareerItems key={item.id} item={item} />;
             })}
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

@@ -30,8 +30,9 @@
 }
 
 .skill__button {
-  color: var(--orange-color);
+  color: var(--magenta-color);
   font-size: var(--small-font-size);
+  font-weight: bold;
   display: inline-flex;
   align-items: center;
   column-gap: 0.25rem;
@@ -43,11 +44,12 @@
   transition: 0.3s;
 }
 
-.skill__button:hover .skill__button-icon {
-  transform: translateX(0.25rem);
+.skill__button:hover{
+  /* transform: translateX(0.25rem); */
+  color: var(--magenta-color-light);
+  transition: .4s;
+
 }
-
-
 
 .skill__modal {
   position: fixed;

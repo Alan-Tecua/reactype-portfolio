@@ -9,30 +9,12 @@ const Footer = () => {
         <h1 className="footer__title">Find me here</h1>
 
         <div className="footer__social">
-          {/* <a
-            href="https://www.facebook.com//"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-facebook"></i>
-          </a> */}
-
-          <a
-            href="https://github.com/Alan-Tecua"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-github"></i>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/alan-tecuapetla/"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-linkedin"></i>
-          </a>
+          {/* <NavLink to="/contact" className="nav__contact-icon nav__logo"></NavLink> */}
+          <a className="nav__contact-icon nav__logo" rel="stylesheet" href="https://github.com/Alan-Tecua" target="blank_"/>
+          <a className="icon__github nav__logo" rel="stylesheet" href="https://github.com/Alan-Tecua" target="blank_"/>
+          <a className="icon__linkedin nav__logo" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" target="blank_"/>
         </div>
+
       </div>
     </footer>
   );

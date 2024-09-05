@@ -16,7 +16,7 @@ function Skills() {
       <div className="skill__container container grid">
         <div className="skill__content">
           <div>
-            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design" width={150} />
+            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design" width={100} />
             <h3 className="skill__title">
               Design
             </h3>
@@ -54,9 +54,10 @@ function Skills() {
 
         <div className="skill__content">
           <div>
-            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243444/Portfolio/icons/BESkills-light-icon_cdgnj7.svg" alt="Backend" width={150}/>
+            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243444/Portfolio/icons/BESkills-light-icon_cdgnj7.svg" alt="Backend" width={100}/>
             <h3 className="skill__title">
               Backend Development
+              {/* Backend <br /> Development */}
             </h3>
           </div>
 
@@ -87,9 +88,9 @@ function Skills() {
 
         <div className="skill__content">
           <div>
-            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243440/Portfolio/icons/FESkills-light-icon_uo46il.svg" alt="Frontend" width={150} />
+            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243440/Portfolio/icons/FESkills-light-icon_uo46il.svg" alt="Frontend" width={100} />
             <h3 className="skill__title">
-              Frontend <br /> Development
+              Frontend Development
             </h3>
           </div>
 
