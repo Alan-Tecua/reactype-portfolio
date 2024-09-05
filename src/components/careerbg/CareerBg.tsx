@@ -9,7 +9,7 @@ function CareerBg() {
     setToggleState(index);
   };
   return (
-    <section className="background section" id="background">
+    <section className="background bg__section" id="background">
       <div className="flex__text container">
         <h1 className="section__title">Career Background <span className="line__accent">/</span></h1>
         <p className="section__subtitle__nm">My Story</p>
