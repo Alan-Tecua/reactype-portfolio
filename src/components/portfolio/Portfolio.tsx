@@ -1,11 +1,11 @@
 import "./portfilio.css";
-import PortfolioWorks from "./PortfolioProjects";
+import PortfolioProjects from "./PortfolioProjects";
 
 function Portfolio() {
   return (
     <section>
 
-
+    <PortfolioProjects/>
     </section>
   )
 
