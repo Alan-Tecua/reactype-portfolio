@@ -14,7 +14,7 @@ const About = () => {
               />
             </div>
             <div className="about__text">
-              <h1 className="landing__title">
+              <h1 className="about__title">
                 Greetings <span className="line__accent">/</span>
               </h1>
               <div>
