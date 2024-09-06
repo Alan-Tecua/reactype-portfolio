@@ -1,9 +1,10 @@
 import "./portfilio.css";
-import PortfolioWorks from "./PortfolioWorks";
+import PortfolioWorks from "./PortfolioProjects";
 
 function Portfolio() {
   return (
     <section>
+
 
     </section>
   )

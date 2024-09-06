@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AdvancedImage } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
+
 import  Modal from "./Modal";
 
 interface PortfolioItem {
@@ -14,12 +15,12 @@ interface PortfolioItem {
     category: string;
     description: string;
     source: string;
-    tags: string;
+    tags: string[];
     url?: string;
   };
 }
 
-const cnm = new Cloudinary({
+const cloudinary = new Cloudinary({
   cloud: {
     cloudName: "dd05o0vvo"
   }
@@ -34,6 +35,38 @@ function PortfolioItems({item}: PortfolioItem) {
 
   return (
     <>
+    <div className="portfolio__card" key={item.id}>
+        <AdvancedImage
+          cldImg={cloudinary.image(item.image.main)}
+          alt=""
+          className="portfolio__img"
+          loading="lazy"
+        />
+        <div className="portfolio__card--hover">
+          <h3 className="portfolio__title">{item.title}</h3>
+          <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
+            View More{" "}
+            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
+          </span>
+        </div>
+      </div>
+
+      <div
+        className={
+          toggleState === item.id ? "portfolio__modal active-modal" : "portfolio__modal"
+        }
+      >
+        <Modal
+          title={item.title}
+          description={item.description}
+          imageUrl={item.image.sub}
+          image={cloudinary.image(item.image.sub)}
+          onClose={() => toggleTab(0)}
+          tags={item.tags}
+          url={item.url}
+          source={item.source}
+        />
+      </div>
     </>
   )
 
