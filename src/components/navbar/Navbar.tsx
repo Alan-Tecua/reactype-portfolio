@@ -54,16 +54,16 @@ function Navbar() {
 
             <li className="nav__item">
               <NavLink
-                to="/projects"
+                to="/portfolio"
                 className={({ isActive }) =>
                   isActive ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> PROJECTS
+                <i className="uil uil-scenery nav__icon"></i> PORTFOLIO
               </NavLink>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <NavLink
                 to="/curious"
                 className={({ isActive }) =>
@@ -72,7 +72,7 @@ function Navbar() {
               >
                 <i className="uil uil-document-layout-left nav__icon"></i> CURIOUS
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="nav icons">
