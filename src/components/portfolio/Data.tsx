@@ -113,7 +113,7 @@ export const projectsData = [
       main: "",
       sub: "",
     },
-    category: "Industrial Design",
+    category: "Industrial",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
     source: "",
@@ -129,7 +129,7 @@ export const projectsData = [
       main: "",
       sub: "",
     },
-    category: "Industrial Design",
+    category: "Industrial",
     description:
       "Design and accessories for dolls at MIRAI STORE TOKYO. To deliver our unique and diverse dolls to customers around the world, we researched ideas and conducted 3D modeling to develop a variety of new products. As an example, we developed an upper arm accessory for dolls.",
     source: "",
@@ -145,7 +145,7 @@ export const projectsData = [
       main: "",
       sub: "",
     },
-    category: "Industrial Design",
+    category: "Industrial",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
     source: "",
@@ -153,13 +153,13 @@ export const projectsData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Climbing Pickaxe",
     image: {
       main: "",
       sub: "",
     },
-    category: "Industrial Design",
+    category: "Industrial",
     description:
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
@@ -174,13 +174,34 @@ export const projectsData = [
     ],
   },
   {
-    id: 9,
+    id: 10,
+    title: "Toro Table",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Industrial",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 11,
     title: "DasGoodMusic Logo",
     image: {
       main: "",
       sub: "",
     },
-    category: "Graphic Design",
+    category: "Design",
     description:
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
@@ -190,13 +211,13 @@ export const projectsData = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "menuforGOOD Logo and Figma",
     image: {
       main: "",
       sub: "",
     },
-    category: "Graphic Design",
+    category: "Design",
     description:
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
@@ -208,13 +229,118 @@ export const projectsData = [
     ],
   },
   {
-    id: 10,
+    id: 13,
     title: "Fit-It Iconography",
     image: {
       main: "",
       sub: "",
     },
-    category: "Graphic Design",
+    category: "Design",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 15,
+    title: "Trailer House",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Design",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 16,
+    title: "Cyber Doll",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Design",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 17,
+    title: "3D Dream House",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Design",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 18,
+    title: "Swiss Emergency Chair",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Industrial",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 19,
+    title: "Doll Bow (Prototype)",
+    image: {
+      main: "",
+      sub: "",
+    },
+    category: "Design",
     description:
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
@@ -238,9 +364,9 @@ export const projectsNav = [
     name: "Web Development",
   },
   {
-    name: "Industrial Design",
+    name: "Industrial",
   },
   {
-    name: "Graphic Design",
+    name: "Design",
   },
 ];
