@@ -1,7 +1,7 @@
 import Portfolio from "../components/portfolio/Portfolio";
 
-function Projects() {
+function Portfolios() {
   return <Portfolio />;
 }
 
-export default Projects;
+export default Portfolios;
