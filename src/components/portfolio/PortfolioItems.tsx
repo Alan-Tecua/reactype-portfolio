@@ -35,10 +35,10 @@ function PortfolioItems({item}: PortfolioItem) {
 
   return (
     <>
-    <div className="portfolio__card" key={item.id}>
+    <div data-aos="fade-up"  className="portfolio__card" key={item.id}>
         <AdvancedImage
           cldImg={cloudinary.image(item.image.main)}
-          alt=""
+          alt="project image"
           className="portfolio__img"
           loading="lazy"
         />

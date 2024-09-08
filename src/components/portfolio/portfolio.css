@@ -10,7 +10,7 @@
   color: var(--title-color);
   padding: 0.25rem 0.75rem;
   font-weight: var(--font-medium);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   text-transform: capitalize;
 }
 
@@ -29,7 +29,7 @@
 .portfolio__card {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
+  border-radius: .4rem;
   position: relative;
   overflow: hidden;
   height: 250px;
@@ -39,7 +39,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: .4rem;
   margin-bottom: var(--mb-1);
 }
 
@@ -52,16 +52,16 @@
   height: 100%;
   background: linear-gradient(180deg,
   hsla(0, 0%, 0%, 0) 0%,
-  hsla(24, 100%, 50%, 0.8) 120%);
+  hsla(343, 92%, 46%, 0.8) 120%);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px); /* For safari */
-  border-radius: 1rem;
+  -webkit-backdrop-filter: blur(4px); /* Safari */
+  border-radius: .4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: bottom .4s;
-  color: white;
+  color: #111111;
 }
 
 .portfolio__card:hover .portfolio__card--hover {
@@ -126,7 +126,7 @@
   position: relative;
   background-color: var(--container-color);
   padding: 4.5rem 2.5rem 2.5rem;
-  border-radius: 1.5rem;
+  border-radius: .4rem;
 }
 
 .portfolio__modal-close {
