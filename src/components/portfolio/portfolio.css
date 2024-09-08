@@ -27,7 +27,7 @@
 }
 
 .portfolio__card {
-  background-color: var(--container-color);
+  background-color: #212121;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .4rem;
   position: relative;
@@ -124,7 +124,7 @@
 .portfolio__modal-content {
   width: 500px;
   position: relative;
-  background-color: var(--container-color);
+  background-color:  var(--darkgray-color);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: .4rem;
 }
@@ -169,7 +169,7 @@
 
 .portfolio__modal-icon {
   color: var(--text-color);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .portfolio__modal-buttons {

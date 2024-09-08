@@ -23,7 +23,7 @@ function PortfolioProjects() {
   const [active, setActive] = useState(0)
 
   useEffect(() => {
-    if (item.name === "web") {
+    if (item.name === "all") {
       setProjects(projectsData)
     } else {
       const newProjects = projectsData.filter((project) => {
