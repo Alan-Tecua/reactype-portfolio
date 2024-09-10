@@ -15,8 +15,8 @@
 }
 
 .portfolio__item:hover {
-  background-color: var(--orange-color);
-  color: var(--container-color);
+  color: var(--magenta-color-light);
+  transition: .3s;
   cursor: pointer;
 }
 
@@ -100,8 +100,7 @@
 /* active portfolio */
 
 .active-portfolio {
-  background-color: var(--orange-color);
-  color: var(--container-color);
+  color: var(--magenta-color);
 }
 
 .portfolio__modal {

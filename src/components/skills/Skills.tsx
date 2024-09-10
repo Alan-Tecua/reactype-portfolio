@@ -40,7 +40,9 @@ function Skills() {
 
             <h3 className="skill__modal-title">Design</h3>
             <p className="skill__modal-description">
-              With more than 5 years of expereince, as designer im capable of conducting user research, creative thinking, and come up with ideas that follow the fundamentals of product design: "Create a solution to a users need"
+              With more than 5 years of expereince, as designer im capable of conducting user research,
+              creative thinking, and come up with ideas that follow the fundamentals of product design:
+              "Create a solution to a users need"
             </p>
 
             <div className="skill__icons">
@@ -77,7 +79,7 @@ function Skills() {
               className="uil uil-times skill__modal-close"
             ></i>
 
-            <h3 className="skill__modal-title">Frontend Development</h3>
+            <h3 className="skill__modal-title">Backend Development</h3>
             <p className="skill__modal-description">
               Object-oriented programming and build MVC software from scratch.
               Relational databases and SQL.
@@ -111,7 +113,7 @@ function Skills() {
               className="uil uil-times skill__modal-close"
             ></i>
 
-            <h3 className="skill__modal-title">Backend Development</h3>
+            <h3 className="skill__modal-title">Frontend Development</h3>
             <p className="skill__modal-description">
               textholder
             </p>

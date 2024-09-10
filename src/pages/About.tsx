@@ -22,6 +22,7 @@ const About = () => {
                   The name's Alan, a former industrial designer, living in Japan
                   and now turning my career into a full-stack web developer.
                 </p>
+                <br/>
                 <p>
                   I decided to learn coding to complement my 5 years designing
                   skills with a broad range of back and front end knowledge,
@@ -32,10 +33,11 @@ const About = () => {
                   well no matter the environment and proactively use my skills
                   to reach my objectives.
                 </p>
+                <br/>
                 <p>
                   Outside of my constant skill development, I love to practice
-                  acroyoga, go for a hike to take pictures, and learn new food
-                  recipes to try.
+                  acroyoga, do standing up paddling (SUP), and try making new food
+                  recipes.
                 </p>
               </div>
             </div>

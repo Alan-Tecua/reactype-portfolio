@@ -45,8 +45,7 @@ function PortfolioItems({item}: PortfolioItem) {
         <div className="portfolio__card--hover">
           <h3 className="portfolio__title">{item.title}</h3>
           <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
-            View More{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
+            See more{" "}
           </span>
         </div>
       </div>
