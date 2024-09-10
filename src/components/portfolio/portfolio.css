@@ -110,6 +110,8 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); /* Safari */
   z-index: var(--z-modal);
   display: flex;
   justify-content: center;
@@ -121,7 +123,7 @@
 }
 
 .portfolio__modal-content {
-  width: 500px;
+  width: 60rem;
   position: relative;
   background-color:  var(--darkgray-color);
   padding: 4.5rem 2.5rem 2.5rem;

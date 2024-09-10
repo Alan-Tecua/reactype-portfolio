@@ -18,7 +18,7 @@ interface Project {
 }
 
 function PortfolioProjects() {
-  const [item, setItem] = useState({name: "web"});
+  const [item, setItem] = useState({name: "all"});
   const [projects, setProjects] = useState<Project[]>([]);
   const [active, setActive] = useState(0)
 

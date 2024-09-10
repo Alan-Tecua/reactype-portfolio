@@ -12,7 +12,14 @@ interface ModalData {
   source: string;
 }
 
-function Modal({title, description, image, onClose, tags, url, source}: ModalData) {
+function Modal({
+  title,
+  description,
+  image,
+  onClose,
+  tags,
+  url,
+  source}: ModalData) {
   return (
     <div className="portfolio__modal-content">
       <i onClick={onClose} className="uil uil-times portfolio__modal-close"></i>
@@ -39,13 +46,13 @@ function Modal({title, description, image, onClose, tags, url, source}: ModalDat
         {url && (
           <a href={url} target="_blank">
             <button className="portfolio__modal-button">
-              <i className="bx bx-link-external"></i> Demo
+              <i className="bx bx-link-external"></i> Site
             </button>
           </a>
         )}
         <a href={source} target="_blank">
-          <button className="portfolio__modal-button">
-            <i className="bx bxl-github"></i> Source
+          <button className="portfolio__modal-button"> Code
+            <i className="bx bxl-github"></i>
           </button>
         </a>
       </div>

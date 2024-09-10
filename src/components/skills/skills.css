@@ -58,6 +58,8 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); /* Safari */
   z-index: var(--z-modal);
   display: flex;
   justify-content: center;
@@ -69,7 +71,7 @@
 }
 
 .skill__modal-content {
-  width: 500px;
+  width: 32rem;
   position: relative;
   background-color:  var(--darkgray-color);
   /* background-color: var(--container-color); */

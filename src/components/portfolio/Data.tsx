@@ -3,8 +3,8 @@ export const projectsData = [
     id: 1,
     title: "menuforGOOD",
     image: {
-      main: "",
-      sub: "",
+      main: "v1725935727/Portfolio/WebDev/menuforGOOD-promotional_bkbcgt.png",
+      sub: "v1725935727/Portfolio/WebDev/menuforGOOD-promotional_bkbcgt.png",
     },
     category: "Web Development",
     description:
@@ -26,8 +26,8 @@ export const projectsData = [
     id: 2,
     title: "Digitomenu",
     image: {
-      main: "",
-      sub: "",
+      main: "v1720158501/Portfolio/doko/elnuxmesimn69lh29lom.png",
+      sub: "v1720158501/Portfolio/doko/ek92vf4np2iqawkbzlbq.png",
     },
     category: "Web Development",
     description:
@@ -47,8 +47,8 @@ export const projectsData = [
     id: 3,
     title: "Fit-It",
     image: {
-      main: "",
-      sub: "",
+      main: "v1725948245/Portfolio/WebDev/Capture_hklwzy.png",
+      sub: "v1725948245/Portfolio/WebDev/Capture2_w7mqg7.png",
     },
     category: "Web Development",
     description:
