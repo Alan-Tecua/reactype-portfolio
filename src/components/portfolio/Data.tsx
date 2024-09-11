@@ -68,8 +68,8 @@ export const projectsData = [
     id: 4,
     title: "Culture-Canvas",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726066558/Portfolio/WebDev/culture-canvas-2_tiol9b.png",
+      sub: "v1726066557/Portfolio/WebDev/culture-canvas-promotional_cnjkfg.png",
     },
     category: "Web Development",
     description:
@@ -89,8 +89,8 @@ export const projectsData = [
     id: 5,
     title: "Weather Report",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726067069/Portfolio/WebDev/wr-promotional_j70au0.png",
+      sub: "v1726067069/Portfolio/WebDev/wr-2_miot1k.png",
     },
     category: "Web Development",
     description:
@@ -253,8 +253,8 @@ export const projectsData = [
     id: 15,
     title: "Trailer House",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726069206/Portfolio/Design/trailer-house-promotional_qsmwpr.png",
+      sub: "v1726069207/Portfolio/Design/trailer-house-1_erqfqq.png",
     },
     category: "Design",
     description:
