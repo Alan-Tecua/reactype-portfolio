@@ -110,8 +110,8 @@ export const projectsData = [
     id: 6,
     title: "Hearing aid accesories",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726144909/Portfolio/Industrial/hearing-promotional_arcptl.png",
+      sub: "v1726144909/Portfolio/Industrial/hearing-2_kt5o6m.png",
     },
     category: "Industrial",
     description:
@@ -126,8 +126,8 @@ export const projectsData = [
     id: 7,
     title: "Amputee doll arm",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726144411/Portfolio/Industrial/arm-promotional_guuote.png",
+      sub: "v1726144411/Portfolio/Industrial/arm-2_fzkwrk.png",
     },
     category: "Industrial",
     description:
@@ -142,8 +142,8 @@ export const projectsData = [
     id: 8,
     title: "Insulin Pump",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726144569/Portfolio/Industrial/insulin-promotional_gvnqx6.png",
+      sub: "v1726144569/Portfolio/Industrial/insulin-2_wpd8aq.png",
     },
     category: "Industrial",
     description:
@@ -156,8 +156,8 @@ export const projectsData = [
     id: 9,
     title: "Climbing Pickaxe",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726144909/Portfolio/Industrial/axe-promotional_aoyymv.png",
+      sub: "v1726144908/Portfolio/Industrial/axe-2_il01t7.png",
     },
     category: "Industrial",
     description:
@@ -177,8 +177,8 @@ export const projectsData = [
     id: 10,
     title: "Toro Table",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726149357/Portfolio/Industrial/toro-2_glifg9.png",
+      sub: "v1726149356/Portfolio/Industrial/toro-promotional_ygrqvz.png",
     },
     category: "Industrial",
     description:
@@ -198,8 +198,8 @@ export const projectsData = [
     id: 11,
     title: "DasGoodMusic Logo",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726148843/Portfolio/Design/dgm-promotional_cvjytz.png",
+      sub: "v1726148844/Portfolio/Design/dgm-2_ssnddt.png",
     },
     category: "Design",
     description:
@@ -212,10 +212,10 @@ export const projectsData = [
   },
   {
     id: 12,
-    title: "menuforGOOD Logo and Figma",
+    title: "menuforGOOD Logo",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726148844/Portfolio/Design/mfg-logo-promotional_r2lyns.png",
+      sub: "v1726148844/Portfolio/Design/mfg-logo-promotional_r2lyns.png",
     },
     category: "Design",
     description:
@@ -232,8 +232,8 @@ export const projectsData = [
     id: 13,
     title: "Fit-It Iconography",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726150676/Portfolio/Design/FITIT-Logo-colors_qavnrp.png",
+      sub: "v1726150683/Portfolio/Design/FITIT-Logo-reverse-colors_pinbzv.png",
     },
     category: "Design",
     description:
@@ -274,8 +274,8 @@ export const projectsData = [
     id: 16,
     title: "Cyber Doll",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726147909/Portfolio/Design/cyborg-promotional_th5xvn.png",
+      sub: "v1726147907/Portfolio/Design/cyborg-2_yhjutt.png",
     },
     category: "Design",
     description:
@@ -295,8 +295,8 @@ export const projectsData = [
     id: 17,
     title: "3D Dream House",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726147906/Portfolio/Design/house-promotional_bswvpl.png",
+      sub: "v1726147907/Portfolio/Design/house-2_vszaim.png",
     },
     category: "Design",
     description:
@@ -316,8 +316,8 @@ export const projectsData = [
     id: 18,
     title: "Swiss Emergency Chair",
     image: {
-      main: "",
-      sub: "",
+      main: "v1726149358/Portfolio/Industrial/swiss-2_ielfz5.png",
+      sub: "v1726149358/Portfolio/Industrial/swiss-promotional_eik0x1.png",
     },
     category: "Industrial",
     description:
@@ -333,27 +333,27 @@ export const projectsData = [
       "devicon-postgresql-plain",
     ],
   },
-  {
-    id: 19,
-    title: "Doll Bow (Prototype)",
-    image: {
-      main: "",
-      sub: "",
-    },
-    category: "Design",
-    description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
-    tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
-    ],
-  },
+  // {
+  //   id: 19,
+  //   title: "Doll Bow (Prototype)",
+  //   image: {
+  //     main: "",
+  //     sub: "",
+  //   },
+  //   category: "Design",
+  //   description:
+  //     "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+  //   source: "",
+  //   tags: [
+  //     "devicon-html5-plain",
+  //     "devicon-sass-original",
+  //     "devicon-bootstrap-plain",
+  //     "devicon-javascript-plain",
+  //     "devicon-ruby-plain",
+  //     "devicon-rails-plain",
+  //     "devicon-postgresql-plain",
+  //   ],
+  // },
 ]
 
 export const projectsNav = [
