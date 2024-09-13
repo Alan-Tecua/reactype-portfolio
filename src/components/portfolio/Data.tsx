@@ -196,6 +196,27 @@ export const projectsData = [
   },
   {
     id: 11,
+    title: "Swiss Emergency Chair",
+    image: {
+      main: "v1726149358/Portfolio/Industrial/swiss-2_ielfz5.png",
+      sub: "v1726149358/Portfolio/Industrial/swiss-promotional_eik0x1.png",
+    },
+    category: "Industrial",
+    description:
+      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+    source: "",
+    tags: [
+      "devicon-html5-plain",
+      "devicon-sass-original",
+      "devicon-bootstrap-plain",
+      "devicon-javascript-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+  },
+  {
+    id: 12,
     title: "DasGoodMusic Logo",
     image: {
       main: "v1726148843/Portfolio/Design/dgm-promotional_cvjytz.png",
@@ -211,7 +232,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "menuforGOOD Logo",
     image: {
       main: "v1726148844/Portfolio/Design/mfg-logo-promotional_r2lyns.png",
@@ -229,7 +250,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Fit-It Iconography",
     image: {
       main: "v1726150676/Portfolio/Design/FITIT-Logo-colors_qavnrp.png",
@@ -312,27 +333,7 @@ export const projectsData = [
       "devicon-postgresql-plain",
     ],
   },
-  {
-    id: 18,
-    title: "Swiss Emergency Chair",
-    image: {
-      main: "v1726149358/Portfolio/Industrial/swiss-2_ielfz5.png",
-      sub: "v1726149358/Portfolio/Industrial/swiss-promotional_eik0x1.png",
-    },
-    category: "Industrial",
-    description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
-    tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
-    ],
-  },
+
   // {
   //   id: 19,
   //   title: "Doll Bow (Prototype)",
