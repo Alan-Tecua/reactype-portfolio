@@ -46,7 +46,7 @@ function Skills() {
             </p>
             <ul className="portfolio__modal-skills">
               <li className="skill__modal-skill">
-                <i className={`devicon-figma-plain portfolio__modal-icon`}></i>
+                <i className="devicon-figma-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
                 <i className={`devicon-illustrator-plain portfolio__modal-icon`}></i>
@@ -91,6 +91,26 @@ function Skills() {
              Specializing in Node.js, Ruby on Rails, and MySQL.
             Having  experience as well in handling data management and deploying scalable solutions using AWS (EC2, RDS).
             </p>
+            <ul className="portfolio__modal-skills">
+              <li className="skill__modal-skill">
+                <i className="devicon-amazonwebservices-plain-wordmark colored portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-mysql-plain-wordmark  portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-postgresql-plain  portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-npm-original-wordmark portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-ruby-plain portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-rails-plain portfolio__modal-icon"></i>
+              </li>
+            </ul>
 
           </div>
         </div>
@@ -125,7 +145,26 @@ function Skills() {
               Alongside JavaScript, TypeScript, HTML, and CSS/SCSS
               I'm able to build responsive and dynamic web pages, ensuring seamless user experiences.
             </p>
-
+            <ul className="portfolio__modal-skills">
+              <li className="skill__modal-skill">
+                <i className="devicon-html5-plain portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-css3-plain  portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-typescript-plain portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-nuxtjs-plain portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-vuejs-plain portfolio__modal-icon"></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className="devicon-nuxt-plain portfolio__modal-icon"></i>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -134,21 +173,3 @@ function Skills() {
 }
 
 export default Skills;
-
-
-{/* <ul className="skill__modal-skill grid">
-              <li className="skill__modal-skill">
-                <i className="uil uil-check-circle skill__modal-icon"></i>
-                <p className="skill__modal-info">Japanese (Native Speaker)</p>
-              </li>
-
-              <li className="skill__modal-skill">
-                <i className="uil uil-check-circle skill__modal-icon"></i>
-                <p className="skill__modal-info">English</p>
-              </li>
-
-              <li className="skill__modal-skill">
-                <i className="uil uil-check-circle skill__modal-icon"></i>
-                <p className="skill__modal-info">Spanish</p>
-              </li>
-            </ul> */}
