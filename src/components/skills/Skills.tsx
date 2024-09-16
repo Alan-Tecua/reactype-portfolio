@@ -54,6 +54,9 @@ function Skills() {
               <li className="skill__modal-skill">
                 <i className={`devicon-photoshop-plain portfolio__modal-icon`}></i>
               </li>
+              <li className="skill__modal-skill">
+                <i className={`devicon-premierepro-plain portfolio__modal-icon`}></i>
+              </li>
             </ul>
           </div>
         </div>

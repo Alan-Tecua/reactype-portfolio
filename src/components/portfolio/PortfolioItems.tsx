@@ -14,7 +14,7 @@ interface PortfolioItem {
     };
     category: string;
     description: string;
-    source: string;
+    source?: string;
     tags: string[];
     url?: string;
   };

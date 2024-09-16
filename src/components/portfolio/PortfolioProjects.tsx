@@ -14,7 +14,7 @@ interface Project {
   description: string;
   tags: string[];
   url?: string;
-  source: string;
+  source?: string;
 }
 
 function PortfolioProjects() {

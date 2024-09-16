@@ -9,7 +9,7 @@ interface ModalData {
   onClose: () => void;
   tags: string[];
   url?: string;
-  source: string;
+  source?: string;
 }
 
 function Modal({
@@ -46,12 +46,12 @@ function Modal({
         {url && (
           <a href={url} target="_blank">
             <button className="portfolio__modal-button">
-              <i className="bx bx-link-external"></i> Site
+              <i className="bx bx-link"></i>
             </button>
           </a>
         )}
         <a href={source} target="_blank">
-          <button className="portfolio__modal-button"> Code
+          <button className="portfolio__modal-button">
             <i className="bx bxl-github"></i>
           </button>
         </a>

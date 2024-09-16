@@ -180,7 +180,7 @@
 
 .portfolio__modal-button {
   color: var(--container-color);
-  background-color: var(--orange-color);
+  background-color: var(--darkgrey-color);
   padding: 0.25rem 0.75rem;
   font-weight: var(--font-medium);
   font-size: var(--small-font-size);
@@ -188,7 +188,8 @@
 }
 
 .portfolio__modal-button:hover {
-  background-color: var(--orange-color-light);
+  background-color: var(--magenta-color);
+  transition: .3s;
 }
 
 /* Active Modal */

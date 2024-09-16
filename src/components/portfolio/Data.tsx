@@ -9,7 +9,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
-    source: "",
+    url: "https://www.menuforgood.com/",
     tags: [
       "devicon-html5-plain",
       "devicon-css3-plain",
@@ -31,8 +31,8 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
-    source: "",
+    "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+    url: "https://digitomenu.com/",
     tags: [
       "devicon-html5-plain",
       "devicon-css3-plain",
@@ -53,7 +53,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "This web-application helps users visualize a better layout for a new residence, to relieve stress when preparing to move into a new home by deciding the future of new furniture into your home. And just like the slogan says: Clean Layout, Clear Mind.",
-    source: "",
+    source: "https://github.com/mnsom/fit-it",
     tags: [
       "devicon-html5-plain",
       "devicon-sass-original",
@@ -74,7 +74,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "A website which allows users to search, request and rent famous paintings from all around the world. Get also real time notification of your request, accept or decline renting your own artwork and appoint the time and date you will use the painting for your next show event.",
-    source: "",
+    source: "https://github.com/mnsom/canvas-culture",
     tags: [
       "devicon-html5-plain",
       "devicon-sass-original",
@@ -95,7 +95,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
-    source: "",
+    source: "https://github.com/Alan-Tecua/weather-report",
     tags: [
       "devicon-html5-plain",
       "devicon-sass-original",
@@ -116,7 +116,7 @@ export const projectsData = [
     category: "Industrial",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
-    source: "",
+    url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/behind-the-ear-hearing-aid",
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
@@ -132,7 +132,7 @@ export const projectsData = [
     category: "Industrial",
     description:
       "Design and accessories for dolls at MIRAI STORE TOKYO. To deliver our unique and diverse dolls to customers around the world, we researched ideas and conducted 3D modeling to develop a variety of new products. As an example, we developed an upper arm accessory for dolls.",
-    source: "",
+    url: "https://shop.smartdoll.jp/products/amputee-arm-tea?_pos=3&_sid=a0a5fadc4&_ss=r",
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
@@ -148,7 +148,7 @@ export const projectsData = [
     category: "Industrial",
     description:
       "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
-    source: "",
+    url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/insulin-pump-and-cgm-set",
     tags: [
     ],
   },
