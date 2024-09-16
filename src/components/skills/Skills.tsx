@@ -23,7 +23,7 @@ function Skills() {
           </div>
 
           <span className="skill__button" onClick={() => toggleTab(1)}>
-            See more...
+            See more
           </span>
         </div>
 
@@ -40,17 +40,21 @@ function Skills() {
 
             <h3 className="skill__modal-title">Design</h3>
             <p className="skill__modal-description">
-              With more than 5 years of expereince, as designer im capable of conducting user research,
-              creative thinking, and come up with ideas that follow the fundamentals of product design:
-              "Create a solution to a users need"
+            With more than 5 years of experience, as designer I’m capable of conducting user research,
+            creative thinking and come up with ideas that follow the fundamentals of product design:
+            "Create a solution to a users needs"
             </p>
-
-            <div className="skill__icons">
-               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1700920677/Portfolio/icons/figma-logo_gr7pwi.svg" alt="Figma"/>
-               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246924/Portfolio/icons/Illustrato-icon_ya45rw.svg" alt="Illustrator" />
-               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246929/Portfolio/icons/Photoshop-icon_xfcnqd.svg" alt="Photoshop" />
-               <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701246933/Portfolio/icons/Premiere-icon_yxsqzl.svg" alt="Premiere" />
-             </div>
+            <ul className="portfolio__modal-skills">
+              <li className="skill__modal-skill">
+                <i className={`devicon-figma-plain portfolio__modal-icon`}></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className={`devicon-illustrator-plain portfolio__modal-icon`}></i>
+              </li>
+              <li className="skill__modal-skill">
+                <i className={`devicon-photoshop-plain portfolio__modal-icon`}></i>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -64,7 +68,7 @@ function Skills() {
           </div>
 
           <span onClick={() => toggleTab(2)} className="skill__button">
-            See more...
+            See more
           </span>
         </div>
 
@@ -81,8 +85,8 @@ function Skills() {
 
             <h3 className="skill__modal-title">Backend Development</h3>
             <p className="skill__modal-description">
-              Object-oriented programming and build MVC software from scratch.
-              Relational databases and SQL.
+             Specializing in Node.js, Ruby on Rails, and MySQL.
+            Having  experience as well in handling data management and deploying scalable solutions using AWS (EC2, RDS).
             </p>
 
           </div>
@@ -97,7 +101,7 @@ function Skills() {
           </div>
 
           <span onClick={() => toggleTab(3)} className="skill__button">
-            See more...
+            See more
             {/* <i className="uil uil-arrow-right skill__button-icon"></i> */}
           </span>
         </div>
@@ -112,13 +116,24 @@ function Skills() {
               onClick={() => toggleTab(0)}
               className="uil uil-times skill__modal-close"
             ></i>
-
             <h3 className="skill__modal-title">Frontend Development</h3>
             <p className="skill__modal-description">
-              textholder
+              Experience in using frameworks such as React, Next.js, and Nuxt.js.
+              Alongside JavaScript, TypeScript, HTML, and CSS/SCSS
+              I'm able to build responsive and dynamic web pages, ensuring seamless user experiences.
             </p>
 
-            <ul className="skill__modal-skill grid">
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Skills;
+
+
+{/* <ul className="skill__modal-skill grid">
               <li className="skill__modal-skill">
                 <i className="uil uil-check-circle skill__modal-icon"></i>
                 <p className="skill__modal-info">Japanese (Native Speaker)</p>
@@ -133,12 +148,4 @@ function Skills() {
                 <i className="uil uil-check-circle skill__modal-icon"></i>
                 <p className="skill__modal-info">Spanish</p>
               </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export default Skills;
+            </ul> */}

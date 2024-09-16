@@ -259,7 +259,7 @@ export const projectsData = [
     category: "Design",
     description:
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+    source: "https://github.com/mnsom/fit-it",
     tags: [
       "devicon-html5-plain",
       "devicon-sass-original",
