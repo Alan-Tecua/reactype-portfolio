@@ -1,9 +1,8 @@
-#about__me {
+/* #about__me {
   padding: 9rem 7rem 5rem 4rem;
   background-size: 1rem;
   background-image: url("https://res.cloudinary.com/dd05o0vvo/image/upload/v1725345753/Portfolio/Magenta-shade-bg_pj4m7v.png");
   background-repeat: no-repeat;
-  /* background-repeat: repeat-y; */
   background-size: 25% 85%;
 }
 
@@ -29,7 +28,6 @@
 
 #about {
   padding: 60px 0;
-  /* background-color: #111111; too dark*/
 }
 
 .about__title {
@@ -69,5 +67,53 @@
   .about__text {
     max-width: 100%;
     text-align: center;
+  }
+} */
+
+
+.about__container {
+  align-items: center;
+  grid-template-columns: 1fr;
+  row-gap: 2.5rem;
+}
+
+.about__img {
+  width: 590px;
+  height: 350px;
+  border-radius: 1.5rem;
+  justify-self: center;
+  object-fit: cover;
+}
+
+.about__data {
+  padding: 0 2rem;
+}
+
+.about__subtitle, .about__description {
+  margin-bottom: var(--mb-1);
+}
+
+
+/* For large devices  */
+@media screen and (max-width: 992px) {
+  .about__img {
+    height: 300px;
+    width: 450px;
+  }
+
+  .about__data {
+    padding: 0 5rem;
+  }
+}
+
+/* For medium devices  */
+@media screen and (max-width: 576px) {
+  .about__img {
+    height: 250px;
+    width: 350px;
+  }
+
+  .about__data {
+    padding: 0;
   }
 }
