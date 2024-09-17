@@ -46,16 +46,16 @@ function Skills() {
             </p>
             <ul className="portfolio__modal-skills">
               <li className="skill__modal-skill">
-                <i className="devicon-figma-plain portfolio__modal-icon"></i>
+               <i className="devicon-figma-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className={`devicon-illustrator-plain portfolio__modal-icon`}></i>
+               <span className="line__accent">・</span><i className={`devicon-illustrator-plain portfolio__modal-icon`}></i>
               </li>
               <li className="skill__modal-skill">
-                <i className={`devicon-photoshop-plain portfolio__modal-icon`}></i>
+               <span className="line__accent">・</span><i className={`devicon-photoshop-plain portfolio__modal-icon`}></i>
               </li>
               <li className="skill__modal-skill">
-                <i className={`devicon-premierepro-plain portfolio__modal-icon`}></i>
+                <span className="line__accent">・</span><i className={`devicon-premierepro-plain portfolio__modal-icon`}></i>
               </li>
             </ul>
           </div>
@@ -93,22 +93,22 @@ function Skills() {
             </p>
             <ul className="portfolio__modal-skills">
               <li className="skill__modal-skill">
-                <i className="devicon-amazonwebservices-plain-wordmark colored portfolio__modal-icon"></i>
+                <i className="devicon-amazonwebservices-plain-wordmark portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-mysql-plain-wordmark  portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-mysql-plain-wordmark  portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-postgresql-plain  portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-postgresql-plain  portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-npm-original-wordmark portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-npm-original-wordmark portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-ruby-plain portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-ruby-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-rails-plain portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-rails-plain portfolio__modal-icon"></i>
               </li>
             </ul>
 
@@ -150,16 +150,16 @@ function Skills() {
                 <i className="devicon-html5-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-css3-plain  portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-css3-plain  portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-typescript-plain portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-typescript-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-nuxtjs-plain portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-nuxtjs-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
-                <i className="devicon-vuejs-plain portfolio__modal-icon"></i>
+                <span className="line__accent">・</span><i className="devicon-vuejs-plain portfolio__modal-icon"></i>
               </li>
               <li className="skill__modal-skill">
                 <i className="devicon-nuxt-plain portfolio__modal-icon"></i>
