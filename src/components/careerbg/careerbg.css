@@ -22,6 +22,7 @@
 
 .background__button:hover {
   color: var(--magenta-color-light);
+  transition: .3s;
 }
 
 .background__icon {

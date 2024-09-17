@@ -95,6 +95,9 @@
 .portfolio__button:hover {
   opacity: 0.6;
   cursor: pointer;
+  color: var(--darkgrey-color);
+  font-weight: bolder;
+  transition: .3s;
 }
 
 /* active portfolio */
@@ -123,7 +126,7 @@
 }
 
 .portfolio__modal-content {
-  width: 60rem;
+  width: 40rem;
   position: relative;
   background-color:  var(--darkgray-color);
   padding: 4.5rem 2.5rem 2.5rem;

@@ -8,7 +8,7 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+      "Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features.",
     url: "https://www.menuforgood.com/",
     tags: [
       "devicon-html5-plain",
@@ -31,7 +31,7 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-    "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+    "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development.",
     url: "https://digitomenu.com/",
     tags: [
       "devicon-html5-plain",
@@ -52,7 +52,7 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "This web-application helps users visualize a better layout for a new residence, to relieve stress when preparing to move into a new home by deciding the future of new furniture into your home. And just like the slogan says: Clean Layout, Clear Mind.",
+      "This web-application helps users visualize a better layout for a new residence, to relieve stress when preparing to move into a new home by deciding the future of new furniture into your home.",
     source: "https://github.com/mnsom/fit-it",
     tags: [
       "devicon-html5-plain",
@@ -73,7 +73,7 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "A website which allows users to search, request and rent famous paintings from all around the world. Get also real time notification of your request, accept or decline renting your own artwork and appoint the time and date you will use the painting for your next show event.",
+      "Request and rent famous paintings from all around the world. Get also real time notification of your request, to accept or decline renting your own artwork.",
     source: "https://github.com/mnsom/canvas-culture",
     tags: [
       "devicon-html5-plain",
@@ -94,16 +94,14 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+      "A fetch and request API weather app to check the current condition of cities around the world; done with Typescript, React and TailwindCSS.",
     source: "https://github.com/Alan-Tecua/weather-report",
     tags: [
       "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
+      "devicon-css3-plain",
+      "devicon-typescript-plain",
+      "devicon-react-plain",
+      "devicon-tailwindcss-plain",
     ],
   },
   {
@@ -115,11 +113,9 @@ export const projectsData = [
     },
     category: "Industrial",
     description:
-      "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+      "A BTE Hearing aid and Cochlear Implant accesories for Smart Doll. For users who want to customize their dolls in representation of themselves.",
     url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/behind-the-ear-hearing-aid",
     tags: [
-      "devicon-illustrator-plain",
-      "devicon-photoshop-plain",
     ],
   },
   {
@@ -134,8 +130,7 @@ export const projectsData = [
       "Design and accessories for dolls at MIRAI STORE TOKYO. To deliver our unique and diverse dolls to customers around the world, we researched ideas and conducted 3D modeling to develop a variety of new products. As an example, we developed an upper arm accessory for dolls.",
     url: "https://shop.smartdoll.jp/products/amputee-arm-tea?_pos=3&_sid=a0a5fadc4&_ss=r",
     tags: [
-      "devicon-illustrator-plain",
-      "devicon-photoshop-plain",
+
     ],
   },
   {
@@ -147,7 +142,7 @@ export const projectsData = [
     },
     category: "Industrial",
     description:
-      "Sole fullstack developer, maintenance of cloud-services such as AWS, creation of scalable components in vue.js & Typescript, being Nuxt.js the main framework for development. Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features. Worked on the creation of MenuForGood logo design and related Illustrations.",
+      "A Insulin Pump set of accesories for Smart Doll. For users who want to customize their dolls in representation of themselves.",
     url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/insulin-pump-and-cgm-set",
     tags: [
     ],
@@ -164,13 +159,6 @@ export const projectsData = [
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
   {
@@ -182,16 +170,9 @@ export const projectsData = [
     },
     category: "Industrial",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "With the use of CNC machinery, executed the creation of ToroG10 table, which received recognition in Design Week Mexico 2017",
+    url: "",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
   {
@@ -203,16 +184,9 @@ export const projectsData = [
     },
     category: "Industrial",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      'Replicated the "Emergency armchair" designed by Pierre Jeanneret, subsequently unveiling it at the Swiss Design Expo 2017.',
+    url: "",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
   {
@@ -224,8 +198,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "Commision work by Jovon Miller from DasGoodMusic Studio",
+    url: "https://dasgoodmusic.com/",
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
@@ -240,8 +214,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "Created the Logo for menuforGOOD new product, as well as related iconography",
+
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
@@ -258,7 +232,7 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
+      "Created the logo for Fit-it, as well as related iconography",
     source: "https://github.com/mnsom/fit-it",
     tags: [
       "devicon-html5-plain",
@@ -279,16 +253,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "Crafted a comprehensive design for a truck house using SketchUp, encompassing both exterior, interior arrangements. Later on, built on into a real home",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
   {
@@ -300,16 +266,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "Commission Project for Mirai Store Tokyo. 3D modeling for a new Cyberpunk theme Doll body",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
   {
@@ -321,16 +279,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-    source: "",
+      "Use of 3D & Renderings software for a visualization of an unique home.",
     tags: [
-      "devicon-html5-plain",
-      "devicon-sass-original",
-      "devicon-bootstrap-plain",
-      "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
 
