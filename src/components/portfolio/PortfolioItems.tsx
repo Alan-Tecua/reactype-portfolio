@@ -50,6 +50,7 @@ function PortfolioItems({item}: PortfolioItem) {
         </div>
       </div>
 
+
       <div
         className={
           toggleState === item.id ? "portfolio__modal active-modal" : "portfolio__modal"

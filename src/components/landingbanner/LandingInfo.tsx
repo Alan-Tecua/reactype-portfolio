@@ -9,9 +9,9 @@ const LandingInfo = () => {
         <h3 className="landing__subtitle section__subtitle__nm">Fullstack Web Developer <span className="line__accent">+</span> Designer</h3>
       </div>
 
-      <NavLink to="/about" className="button button__flex">
+      {/* <NavLink to="/about" className="button button__flex">
         About me
-      </NavLink>
+      </NavLink> */}
 
     </div>
 
