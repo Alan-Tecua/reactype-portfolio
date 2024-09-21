@@ -75,6 +75,15 @@ function Skills() {
               {/* Backend <br /> Development */}
             </h3>
           </div>
+          <ul>
+            <li><span className="line__accent">・</span> Node.js</li>
+            <li><span className="line__accent">・</span> MySQL</li>
+            <li><span className="line__accent">・</span> Postgresql</li>
+            <li><span className="line__accent">・</span> Ruby</li>
+            <li><span className="line__accent">・</span> Rails</li>
+            <li><span className="line__accent">・</span> AWS</li>
+            <li><span className="line__accent">・</span> Ubuntu</li>
+          </ul>
 
           {/* <span onClick={() => toggleTab(2)} className="skill__button">
             See more
@@ -128,6 +137,15 @@ function Skills() {
               Frontend Development
             </h3>
           </div>
+          <ul>
+            <li><span className="line__accent">・</span> Typescript</li>
+            <li><span className="line__accent">・</span> Javascript</li>
+            <li><span className="line__accent">・</span> Nuxt.js</li>
+            <li><span className="line__accent">・</span> Vue.js</li>
+            <li><span className="line__accent">・</span> React</li>
+            <li><span className="line__accent">・</span> HTML</li>
+            <li><span className="line__accent">・</span> CSS</li>
+          </ul>
 
           {/* <span onClick={() => toggleTab(3)} className="skill__button">
             See more
