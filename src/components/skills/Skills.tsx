@@ -13,18 +13,24 @@ function Skills() {
         <h1 className="section__title">Technical Skills <span className="line__accent">/</span></h1>
         <p className="section__subtitle__nm">My capabilities</p>
       </div>
-      <div className="skill__container container grid">
+      <div data-aos="fade-down"  className="skill__container container grid">
         <div className="skill__content">
-          <div>
+          <div className="skill__title">
             <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design" width={100} />
-            <h3 className="skill__title">
-              Design
-            </h3>
+            <h3 className="skill__title">Design</h3>
           </div>
-
-          <span className="skill__button" onClick={() => toggleTab(1)}>
+          <ul>
+            {/* <li><span className="line__accent"><i className="uil uil-arrow-right skill__button-icon"></i></span> 5 years of experience</li> */}
+            <li><span className="line__accent">・</span> 5 years of experience</li>
+            <li><span className="line__accent">・</span> Conducting user research</li>
+            <li><span className="line__accent">・</span> Illustrator</li>
+            <li><span className="line__accent">・</span> Photoshop</li>
+            <li><span className="line__accent">・</span> Premiere</li>
+            <li><span className="line__accent">・</span> Figma</li>
+          </ul>
+          {/* <span className="skill__button" onClick={() => toggleTab(1)}>
             See more
-          </span>
+          </span> */}
         </div>
 
         <div
@@ -62,7 +68,7 @@ function Skills() {
         </div>
 
         <div className="skill__content">
-          <div>
+          <div className="skill__title">
             <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243444/Portfolio/icons/BESkills-light-icon_cdgnj7.svg" alt="Backend" width={100}/>
             <h3 className="skill__title">
               Backend Development
@@ -70,9 +76,9 @@ function Skills() {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(2)} className="skill__button">
+          {/* <span onClick={() => toggleTab(2)} className="skill__button">
             See more
-          </span>
+          </span> */}
         </div>
 
         <div
@@ -116,17 +122,16 @@ function Skills() {
         </div>
 
         <div className="skill__content">
-          <div>
+          <div className="skill__title">
             <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243440/Portfolio/icons/FESkills-light-icon_uo46il.svg" alt="Frontend" width={100} />
             <h3 className="skill__title">
               Frontend Development
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(3)} className="skill__button">
+          {/* <span onClick={() => toggleTab(3)} className="skill__button">
             See more
-            {/* <i className="uil uil-arrow-right skill__button-icon"></i> */}
-          </span>
+          </span> */}
         </div>
 
         <div

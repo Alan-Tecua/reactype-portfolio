@@ -38,7 +38,7 @@ function Navbar() {
                 }
               >
                 <i className="uil uil-estate nav__icon"></i>
-                 HOME
+                 PORTFOLIO
               </NavLink>
             </li>
 

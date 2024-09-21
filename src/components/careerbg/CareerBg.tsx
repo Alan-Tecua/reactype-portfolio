@@ -15,7 +15,7 @@ function CareerBg() {
         <p className="section__subtitle__nm">My Story</p>
       </div>
 
-      <div data-aos="fade-up" className="background__container container">
+      <div data-aos="fade-down" className="background__container container">
         <div className="background__tabs">
           <div
             className={
