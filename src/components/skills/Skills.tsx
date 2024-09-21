@@ -190,6 +190,19 @@ function Skills() {
             </ul>
           </div>
         </div>
+
+        {/* <div className="skill__content">
+          <div className="skill__title">
+            <img className="skill__img" src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design"/>
+            <h3 className="skill__title">Personal</h3>
+          </div>
+          <ul>
+            <li><span className="line__accent">・</span> Japanese</li>
+            <li><span className="line__accent">・</span> English</li>
+            <li><span className="line__accent">・</span> Spanish</li>
+          </ul>
+        </div> */}
+
       </div>
     </section>
   );
