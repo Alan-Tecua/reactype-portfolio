@@ -86,7 +86,8 @@
 }
 
 .about__data {
-  padding: 0 2rem;
+  padding: 0 12rem;
+  text-align: justify;
 }
 
 .about__subtitle, .about__description {
