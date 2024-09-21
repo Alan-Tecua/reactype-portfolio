@@ -66,7 +66,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="nav icons">
-          <NavLink to="/contact" className="nav__contact-icon nav__logo"></NavLink>
+          {/* <NavLink to="/contact" className="nav__contact-icon nav__logo"></NavLink> */}
           <a className="icon__github nav__logo" rel="stylesheet" href="https://github.com/Alan-Tecua" target="blank_"/>
           <a className="icon__linkedin nav__logo" rel="stylesheet" href="https://www.linkedin.com/in/alan-tecuapetla/" target="blank_"/>
         </div>

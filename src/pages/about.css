@@ -80,7 +80,7 @@
 .about__img {
   width: 590px;
   height: 350px;
-  border-radius: 1.5rem;
+  border-radius: .5rem;
   justify-self: center;
   object-fit: cover;
 }
