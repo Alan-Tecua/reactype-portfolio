@@ -162,7 +162,7 @@
 /* large */
 @media screen and (max-width: 992px) {
   .skill__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
   }
  }
 

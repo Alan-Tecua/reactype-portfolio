@@ -21,8 +21,8 @@ function Skills() {
           </div>
           <ul>
             {/* <li><span className="line__accent"><i className="uil uil-arrow-right skill__button-icon"></i></span> 5 years of experience</li> */}
-            <li><span className="line__accent">・</span> 5 years of experience</li>
-            <li><span className="line__accent">・</span> Conducting user research</li>
+            {/* <li><span className="line__accent">・</span> 5 years of experience</li> */}
+            {/* <li><span className="line__accent">・</span> Conducting user research</li> */}
             <li><span className="line__accent">・</span> Illustrator</li>
             <li><span className="line__accent">・</span> Photoshop</li>
             <li><span className="line__accent">・</span> Premiere</li>
