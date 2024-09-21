@@ -53,7 +53,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <NavLink
                 to="/portfolio"
                 className={({ isActive }) =>
@@ -62,7 +62,7 @@ function Navbar() {
               >
                 <i className="uil uil-scenery nav__icon"></i> PORTFOLIO
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="nav icons">

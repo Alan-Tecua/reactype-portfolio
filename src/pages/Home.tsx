@@ -12,6 +12,7 @@ function Home() {
     //   <CareerBg />
     // </>
     <>
+    <LandingBanner/>
     <Portfolio/>
     </>
   );
