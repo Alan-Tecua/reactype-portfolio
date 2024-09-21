@@ -16,7 +16,7 @@ function Skills() {
       <div data-aos="fade-down"  className="skill__container container grid">
         <div className="skill__content">
           <div className="skill__title">
-            <img src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design" width={100} />
+            <img className="skill__img" src="https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg" alt="design"/>
             <h3 className="skill__title">Design</h3>
           </div>
           <ul>
