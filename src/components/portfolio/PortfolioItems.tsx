@@ -16,7 +16,7 @@ interface PortfolioItem {
     description: string;
     source?: string;
     tags: string[];
-    secondTags?: string[];
+    secondTags: string[];
     url?: string;
   };
 }
