@@ -86,7 +86,7 @@
 }
 
 .about__data {
-  padding: 0 12rem;
+  padding: 0 14rem;
   text-align: justify;
 }
 
@@ -103,7 +103,7 @@
   }
 
   .about__data {
-    padding: 0 5rem;
+    padding: 0 12rem;
   }
 }
 
@@ -115,6 +115,6 @@
   }
 
   .about__data {
-    padding: 0;
+    padding: 0 2rem;
   }
 }
