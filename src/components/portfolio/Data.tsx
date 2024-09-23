@@ -22,9 +22,9 @@ export const projectsData = [
       "devicon-figma-plain",
     ],
     secondTags: [
-      "UX Design",
+      "UI/UX Design",
       "Fullstack Developer",
-      "Product Lead"
+      "Media optimization ",
     ],
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     secondTags: [
       "UX Design",
       "Fullstack Developer",
-      "Product Lead"
+      "API Updates"
     ],
   },
   {
@@ -76,7 +76,7 @@ export const projectsData = [
     secondTags: [
       "UX Design",
       "Fullstack Developer",
-      "Product Lead"
+      "Product Lead",
     ],
   },
   {
@@ -101,7 +101,7 @@ export const projectsData = [
     ],
     secondTags: [
       "UX Design",
-      "Fullstack Developer",
+      "Logo Design",
       "Product Lead"
     ],
   },
@@ -124,9 +124,7 @@ export const projectsData = [
       "devicon-tailwindcss-plain",
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "API Project",
     ],
   },
   {
@@ -143,9 +141,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Lead Designer",
+      "Production",
+      "Packaging",
     ],
   },
   {
@@ -163,9 +161,9 @@ export const projectsData = [
 
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Lead Designer",
+      "Production",
+      "Release",
     ],
   },
   {
@@ -182,9 +180,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Lead Designer",
+      "Production",
+      "Packaging",
     ],
   },
   {
@@ -199,6 +197,10 @@ export const projectsData = [
       "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
     source: "",
     tags: [
+    ],
+    secondTags: [
+      "Concept Design",
+      "Prototyping"
     ],
   },
   {
@@ -215,9 +217,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Woodworking",
+      "Building",
+      "Prototyping",
     ],
   },
   {
@@ -234,9 +236,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Woodworking",
+      "Building",
+      "Prototyping",
     ],
   },
   {
@@ -255,9 +257,9 @@ export const projectsData = [
       "devicon-photoshop-plain",
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Illustrator",
+      "Graphic",
+      "Logo Design"
     ],
   },
   {
@@ -278,9 +280,10 @@ export const projectsData = [
       "devicon-canva-plain",
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Illustrator",
+      "Graphic",
+      "Icons",
+      "Logo Design",
     ],
   },
   {
@@ -304,9 +307,10 @@ export const projectsData = [
       "devicon-postgresql-plain",
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Illustrator",
+      "Graphic",
+      "Icons",
+      "Logo Design",
     ],
   },
   {
@@ -322,9 +326,10 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Lead Designer",
+      "Sketch-Up",
+      "VR",
+      "Interior Design",
     ],
   },
   {
@@ -340,9 +345,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Zbrush",
+      "Concept Design",
+      "Prototyping"
     ],
   },
   {
@@ -358,9 +363,9 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
-      "UX Design",
-      "Fullstack Developer",
-      "Product Lead"
+      "Sketch-Up",
+      "Concept Design",
+      "Rendering"
     ],
   },
 

@@ -57,7 +57,7 @@ function PortfolioItems({item}: PortfolioItem) {
             {item.secondTags?.map((tag, i) => (
               <span key={i}>
                 {tag}
-                {i < item.secondTags.length - 1 && (
+                {i < item.secondTags?.length - 1 && (
                   <span className="line__accent"> + </span>
                 )}
               </span>
