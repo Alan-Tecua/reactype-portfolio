@@ -13,6 +13,7 @@ interface Project {
   category: string;
   description: string;
   tags: string[];
+  secondTags?: string[];
   url?: string;
   source?: string;
 }

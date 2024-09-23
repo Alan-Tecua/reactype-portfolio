@@ -21,6 +21,11 @@ export const projectsData = [
       "devicon-mysql-plain",
       "devicon-figma-plain",
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 2,
@@ -41,6 +46,11 @@ export const projectsData = [
       "devicon-docker-plain",
       "devicon-amazonwebservices-plain",
       "devicon-mysql-plain",
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -63,6 +73,11 @@ export const projectsData = [
       "devicon-rails-plain",
       "devicon-postgresql-plain",
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 4,
@@ -84,6 +99,11 @@ export const projectsData = [
       "devicon-rails-plain",
       "devicon-postgresql-plain",
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 5,
@@ -103,6 +123,11 @@ export const projectsData = [
       "devicon-react-plain",
       "devicon-tailwindcss-plain",
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 6,
@@ -116,6 +141,11 @@ export const projectsData = [
       "A BTE Hearing aid and Cochlear Implant accesories for Smart Doll. For users who want to customize their dolls in representation of themselves.",
     url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/behind-the-ear-hearing-aid",
     tags: [
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -132,6 +162,11 @@ export const projectsData = [
     tags: [
 
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 8,
@@ -145,6 +180,11 @@ export const projectsData = [
       "A Insulin Pump set of accesories for Smart Doll. For users who want to customize their dolls in representation of themselves.",
     url: "https://shop.smartdoll.jp/collections/filter-medical-supplies/products/insulin-pump-and-cgm-set",
     tags: [
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -174,6 +214,11 @@ export const projectsData = [
     url: "",
     tags: [
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 11,
@@ -187,6 +232,11 @@ export const projectsData = [
       'Replicated the "Emergency armchair" designed by Pierre Jeanneret, subsequently unveiling it at the Swiss Design Expo 2017.',
     url: "",
     tags: [
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -203,6 +253,11 @@ export const projectsData = [
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -221,6 +276,11 @@ export const projectsData = [
       "devicon-photoshop-plain",
       "devicon-figma-plain",
       "devicon-canva-plain",
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -243,6 +303,11 @@ export const projectsData = [
       "devicon-rails-plain",
       "devicon-postgresql-plain",
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 15,
@@ -255,6 +320,11 @@ export const projectsData = [
     description:
       "Crafted a comprehensive design for a truck house using SketchUp, encompassing both exterior, interior arrangements. Later on, built on into a real home",
     tags: [
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
   {
@@ -269,6 +339,11 @@ export const projectsData = [
       "Commission Project for Mirai Store Tokyo. 3D modeling for a new Cyberpunk theme Doll body",
     tags: [
     ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
+    ],
   },
   {
     id: 17,
@@ -281,6 +356,11 @@ export const projectsData = [
     description:
       "Use of 3D & Renderings software for a visualization of an unique home.",
     tags: [
+    ],
+    secondTags: [
+      "UX Design",
+      "Fullstack Developer",
+      "Product Lead"
     ],
   },
 

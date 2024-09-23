@@ -16,6 +16,7 @@ interface PortfolioItem {
     description: string;
     source?: string;
     tags: string[];
+    secondTags?: string[];
     url?: string;
   };
 }
@@ -52,7 +53,16 @@ function PortfolioItems({item}: PortfolioItem) {
       </div>
 
         <div className="portfolio__tags-section">
-          <p className="portfolio__secondary-tags">{item.title}</p>
+          <p className="portfolio__secondary-tags">
+            {item.secondTags?.map((tag, i) => (
+              <span key={i}>
+                {tag}
+                {i < item.secondTags.length - 1 && (
+                  <span className="line__accent"> + </span>
+                )}
+              </span>
+            ))}
+          </p>
         </div>
       </div>
 
