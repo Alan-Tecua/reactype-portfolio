@@ -24,7 +24,7 @@ export const Exp = [
     id: 1,
     title: "Fullstack Developer",
     subtitle: "Dokojapan K.K - Japan",
-    period: "12/2020 - 06/2024"
+    period: "12/2023 - 06/2024"
   },
   {
     id: 2,
