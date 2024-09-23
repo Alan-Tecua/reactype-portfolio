@@ -145,7 +145,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-left: 1rem;
-  margin-top: .4rem;
+  /* margin-top: .4rem; */
 }
 
 .section__title,
@@ -239,7 +239,7 @@ img {
   }
 
   .section {
-    padding: 2rem 0 4rem;
+    padding: 3rem 0 1rem;
   }
 
   .section__subtitle {
