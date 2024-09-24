@@ -49,9 +49,20 @@ function PortfolioItems({item}: PortfolioItem) {
           <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
             See more{" "}
           </span>
+          <br />
+          <div>
+            <ul className="portfolio__modal-skills">
+              {item.tags.map((tag, index) => {
+                return (
+                  <li key={index} className="portfolio__modal-skill">
+                    <i className={`${tag} portfolio__modal-icon`}></i>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </div>
-
         <div className="portfolio__tags-section">
           <p className="portfolio__secondary-tags">
             {item.secondTags?.map((tag, i) => (
