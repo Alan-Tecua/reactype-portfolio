@@ -37,6 +37,7 @@ function PortfolioItems({item}: PortfolioItem) {
   return (
     <>
     <div data-aos="fade-up"  className="portfolio__card-wrapper" key={item.id}>
+      <h3 className="portfolio__title">{item.title}</h3>
       <div className="portfolio__card">
         <AdvancedImage
           cldImg={cloudinary.image(item.image.main)}
@@ -45,11 +46,6 @@ function PortfolioItems({item}: PortfolioItem) {
           loading="lazy"
         />
         <div className="portfolio__card--hover">
-          <h3 className="portfolio__title">{item.title}</h3>
-          <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
-            See more{" "}
-          </span>
-          <br />
           <div>
             <ul className="portfolio__modal-skills">
               {item.tags.map((tag, index) => {
@@ -61,6 +57,9 @@ function PortfolioItems({item}: PortfolioItem) {
               })}
             </ul>
           </div>
+          <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
+            See more{" "}
+          </span>
         </div>
       </div>
         <div className="portfolio__tags-section">
