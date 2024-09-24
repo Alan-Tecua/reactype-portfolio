@@ -95,7 +95,7 @@
 
 .portfolio__button {
   color: var(--container-color);
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
@@ -219,6 +219,12 @@
   visibility: visible;
 }
 
+/* Custom Icon */
+
+.myicon-design {
+  background-image: url(https://res.cloudinary.com/dd05o0vvo/image/upload/v1701243450/Portfolio/icons/DesignSkills-light-icon_qnbc9w.svg);
+  font-size: 1.5rem;
+}
 
 /* Breakpoints */
 /* For large devices  */

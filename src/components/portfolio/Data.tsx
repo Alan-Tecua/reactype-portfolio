@@ -343,6 +343,8 @@ export const projectsData = [
     description:
       "Commission Project for Mirai Store Tokyo. 3D modeling for a new Cyberpunk theme Doll body",
     tags: [
+      "myicon-design",
+      "fa-regular fa-cubes",
     ],
     secondTags: [
       "Zbrush",
