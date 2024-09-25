@@ -88,7 +88,7 @@
 .portfolio__title {
   color: var(--container-color);
   font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var( --font-semi-bold);
   margin-bottom: var(--mb-0-5);
   text-align: center;
 }
