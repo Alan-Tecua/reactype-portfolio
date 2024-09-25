@@ -125,6 +125,8 @@ export const projectsData = [
     ],
     secondTags: [
       "API Project",
+      "React",
+      "Tailwind"
     ],
   },
   {
