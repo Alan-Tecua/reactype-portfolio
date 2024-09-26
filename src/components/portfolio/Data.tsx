@@ -207,6 +207,26 @@ export const projectsData = [
   },
   {
     id: 10,
+    title: "Bio Mecha Boots",
+    image: {
+      main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
+      sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
+    },
+    category: "Industrial",
+    description:
+      "Design and development work for Bio-Mecha theme boots for Smartdolls",
+    url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",
+    tags: [
+
+    ],
+    secondTags: [
+      "Lead Designer",
+      "Production",
+      "Packaging",
+    ],
+  },
+  {
+    id: 11,
     title: "Toro Table",
     image: {
       main: "v1726149357/Portfolio/Industrial/toro-2_glifg9.png",
@@ -225,7 +245,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Swiss Emergency Chair",
     image: {
       main: "v1726149358/Portfolio/Industrial/swiss-2_ielfz5.png",
@@ -244,7 +264,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "DasGoodMusic Logo",
     image: {
       main: "v1726148843/Portfolio/Design/dgm-promotional_cvjytz.png",
@@ -265,7 +285,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "menuforGOOD Logo",
     image: {
       main: "v1726148844/Portfolio/Design/mfg-logo-promotional_r2lyns.png",
@@ -289,7 +309,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Fit-It Iconography",
     image: {
       main: "v1726150676/Portfolio/Design/FITIT-Logo-colors_qavnrp.png",
@@ -316,7 +336,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Trailer House",
     image: {
       main: "v1726069206/Portfolio/Design/trailer-house-promotional_qsmwpr.png",
@@ -335,7 +355,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Cyber Doll",
     image: {
       main: "v1726147909/Portfolio/Design/cyborg-promotional_th5xvn.png",
@@ -355,7 +375,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "3D Dream House",
     image: {
       main: "v1726147906/Portfolio/Design/house-promotional_bswvpl.png",
@@ -372,26 +392,7 @@ export const projectsData = [
       "Rendering"
     ],
   },
-  {
-    id: 18,
-    title: "Bio Mecha Boots",
-    image: {
-      main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
-      sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
-    },
-    category: "Industrial",
-    description:
-      "Design and development work for Bio-Mecha theme boots for Smartdolls",
-    url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",
-    tags: [
 
-    ],
-    secondTags: [
-      "Lead Designer",
-      "Production",
-      "Packaging",
-    ],
-  },
 
   // {
   //   id: 19,
