@@ -372,6 +372,26 @@ export const projectsData = [
       "Rendering"
     ],
   },
+  {
+    id: 18,
+    title: "Bio Mecha Boots",
+    image: {
+      main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
+      sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
+    },
+    category: "Web Development",
+    description:
+      "Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features.",
+    url: "https://www.menuforgood.com/",
+    tags: [
+
+    ],
+    secondTags: [
+      "Lead Designer",
+      "Production",
+      "Packaging",
+    ],
+  },
 
   // {
   //   id: 19,
