@@ -381,8 +381,8 @@ export const projectsData = [
     },
     category: "Web Development",
     description:
-      "Worked on the launch of the new company product menuforGOOD, as well created prototypes on Figma for subsequent pages and features.",
-    url: "https://www.menuforgood.com/",
+      "Design and development work for Bio-Mecha theme boots for Smartdolls",
+    url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",
     tags: [
 
     ],
