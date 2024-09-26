@@ -119,6 +119,11 @@
   transition: .3s;
 }
 
+.portfolio__button-all{
+  cursor: pointer;
+}
+
+
 /* active portfolio */
 
 .active-portfolio {
