@@ -379,7 +379,7 @@ export const projectsData = [
       main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
       sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
     },
-    category: "Web Development",
+    category: "Industrial",
     description:
       "Design and development work for Bio-Mecha theme boots for Smartdolls",
     url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",

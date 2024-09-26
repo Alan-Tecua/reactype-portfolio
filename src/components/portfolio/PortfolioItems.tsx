@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { AdvancedImage } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
 
@@ -32,6 +32,12 @@ function PortfolioItems({item}: PortfolioItem) {
 
   const toggleTab = (id: number) => {
     setToggleState(id);
+  };
+
+  const handleOverlayClick = (event: React.MouseEvent) => {
+    if ((event.target as HTMLElement).classList.contains("portfolio__modal")) {
+      toggleTab(0);
+    }
   };
 
   return (
@@ -85,8 +91,9 @@ function PortfolioItems({item}: PortfolioItem) {
 
       <div
         className={
-          toggleState === item.id ? "portfolio__modal active-modal" : "portfolio__modal"
-        }
+          toggleState === item.id ? "portfolio__modal active-modal"   : "portfolio__modal"
+        } onClick={handleOverlayClick}
+
       >
         <Modal
           title={item.title}
