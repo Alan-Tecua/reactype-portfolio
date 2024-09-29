@@ -27,6 +27,9 @@ function Skills() {
             <li><span className="line__accent">・</span> Photoshop</li>
             <li><span className="line__accent">・</span> Premiere</li>
             <li><span className="line__accent">・</span> Figma</li>
+            <li><span className="line__accent">・</span> English</li>
+            <li><span className="line__accent">・</span> Japanese</li>
+            <li><span className="line__accent">・</span> Spanish</li>
           </ul>
           {/* <span className="skill__button" onClick={() => toggleTab(1)}>
             See more
