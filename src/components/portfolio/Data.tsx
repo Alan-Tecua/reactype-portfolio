@@ -393,28 +393,29 @@ export const projectsData = [
     ],
   },
 
-
-  // {
-  //   id: 19,
-  //   title: "Doll Bow (Prototype)",
-  //   image: {
-  //     main: "",
-  //     sub: "",
-  //   },
-  //   category: "Design",
-  //   description:
-  //     "The Climbing Axe was my responsibility from concept and 3D modeling to final production. Followed the same design process when it came to manufacturing and shipping of the product.",
-  //   source: "",
-  //   tags: [
-  //     "devicon-html5-plain",
-  //     "devicon-sass-original",
-  //     "devicon-bootstrap-plain",
-  //     "devicon-javascript-plain",
-  //     "devicon-ruby-plain",
-  //     "devicon-rails-plain",
-  //     "devicon-postgresql-plain",
-  //   ],
-  // },
+  {
+    id: 19,
+    title: "Smartdoll Youtube Channel",
+    image: {
+      main: "v1727599268/Portfolio/Design/yt-thumbnail_rj95vl.png",
+      sub: "v1727599269/Portfolio/Design/yt-thumbnail-3_nz5r6o.png",
+    },
+    category: "Design",
+    description:
+      "LIG",
+    source: "",
+    tags: [
+      "devicon-illustrator-plain",
+      "devicon-photoshop-plain",
+      "devicon-premierepro-plain",
+      "devicon-aftereffects-plain",
+    ],
+    secondTags: [
+      "Filming",
+      "Edition",
+      "Directing"
+    ],
+  },
 ]
 
 export const projectsNav = [
