@@ -402,8 +402,8 @@ export const projectsData = [
     },
     category: "Design",
     description:
-      "LIG",
-    source: "",
+      "Resposible for Filming, Edition, Animation and Sound design for over 18 videos that are in the company official YouTube channel.",
+    url: "https://www.youtube.com/watch?v=JJNIMF5-xTU",
     tags: [
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
