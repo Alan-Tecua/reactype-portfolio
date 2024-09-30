@@ -420,10 +420,10 @@ export const projectsData = [
     id: 20,
     title: "Bow accesory",
     image: {
-      main: "v1727599268/Portfolio/Design/yt-thumbnail_rj95vl.png",
-      sub: "v1727599269/Portfolio/Design/yt-thumbnail-3_nz5r6o.png",
+      main: "v1727704487/Portfolio/Industrial/bow1_ibllkb.jpg",
+      sub: "v1727704487/Portfolio/Industrial/bow3_btcv5q.jpg",
     },
-    category: "Design",
+    category: "Industrial",
     description:
       "Protoype build made of 3D resin print for the survival set of accesories for SmartDoll",
     url: "",
