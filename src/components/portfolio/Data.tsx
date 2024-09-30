@@ -206,6 +206,25 @@ export const projectsData = [
     ],
   },
   {
+    id: 20,
+    title: "Bow accesory",
+    image: {
+      main: "v1727704487/Portfolio/Industrial/bow1_ibllkb.jpg",
+      sub: "v1727704487/Portfolio/Industrial/bow3_btcv5q.jpg",
+    },
+    category: "Industrial",
+    description:
+      "Protoype build made of 3D resin print for the survival set of accesories for SmartDoll",
+    url: "",
+    tags: [
+    ],
+    secondTags: [
+      "Fusion360",
+      "Concept Design",
+      "Prototyping"
+    ],
+  },
+  {
     id: 10,
     title: "Bio Mecha Boots",
     image: {
@@ -416,25 +435,7 @@ export const projectsData = [
       "Directing"
     ],
   },
-  {
-    id: 20,
-    title: "Bow accesory",
-    image: {
-      main: "v1727704487/Portfolio/Industrial/bow1_ibllkb.jpg",
-      sub: "v1727704487/Portfolio/Industrial/bow3_btcv5q.jpg",
-    },
-    category: "Industrial",
-    description:
-      "Protoype build made of 3D resin print for the survival set of accesories for SmartDoll",
-    url: "",
-    tags: [
-    ],
-    secondTags: [
-      "Fusion360",
-      "Concept Design",
-      "Prototyping"
-    ],
-  },
+
 ]
 
 export const projectsNav = [
