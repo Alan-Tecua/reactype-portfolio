@@ -416,6 +416,25 @@ export const projectsData = [
       "Directing"
     ],
   },
+  {
+    id: 20,
+    title: "Bow accesory",
+    image: {
+      main: "v1727599268/Portfolio/Design/yt-thumbnail_rj95vl.png",
+      sub: "v1727599269/Portfolio/Design/yt-thumbnail-3_nz5r6o.png",
+    },
+    category: "Design",
+    description:
+      "Protoype build made of 3D resin print for the survival set of accesories for SmartDoll",
+    url: "",
+    tags: [
+    ],
+    secondTags: [
+      "Fusion360",
+      "Concept Design",
+      "Prototyping"
+    ],
+  },
 ]
 
 export const projectsNav = [
