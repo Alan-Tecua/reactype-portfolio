@@ -188,6 +188,26 @@ export const projectsData = [
     ],
   },
   {
+    id: 10,
+    title: "Bio Mecha Boots",
+    image: {
+      main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
+      sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
+    },
+    category: "Industrial",
+    description:
+      "Design and development work for Bio-Mecha theme boots for Smartdolls",
+    url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",
+    tags: [
+
+    ],
+    secondTags: [
+      "Lead Designer",
+      "Production",
+      "Packaging",
+    ],
+  },
+  {
     id: 9,
     title: "Climbing Pickaxe",
     image: {
@@ -201,6 +221,7 @@ export const projectsData = [
     tags: [
     ],
     secondTags: [
+      "Fusion360",
       "Concept Design",
       "Prototyping"
     ],
@@ -224,26 +245,7 @@ export const projectsData = [
       "Prototyping"
     ],
   },
-  {
-    id: 10,
-    title: "Bio Mecha Boots",
-    image: {
-      main: "v1726147868/Portfolio/Industrial/boots-promotional_lsz7lz.png",
-      sub: "v1726147870/Portfolio/Industrial/boots-2_kcowfw.png",
-    },
-    category: "Industrial",
-    description:
-      "Design and development work for Bio-Mecha theme boots for Smartdolls",
-    url: "https://shop.smartdoll.jp/products/bio-mecha-boots-2-black-navy?_pos=1&_sid=f3f9631ff&_ss=r",
-    tags: [
 
-    ],
-    secondTags: [
-      "Lead Designer",
-      "Production",
-      "Packaging",
-    ],
-  },
   {
     id: 11,
     title: "Toro Table",
