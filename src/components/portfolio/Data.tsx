@@ -254,7 +254,7 @@ export const projectsData = [
     },
     category: "Industrial",
     description:
-      "With the use of CNC machinery, executed the creation of ToroG10 table, which received recognition in Design Week Mexico 2017",
+      "Head cap that uses small magnets that allows specific accessories to be attached through the hair of dolls.",
     url: "",
     tags: [
     ],
