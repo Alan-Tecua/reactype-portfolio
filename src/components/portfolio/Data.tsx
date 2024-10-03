@@ -208,6 +208,25 @@ export const projectsData = [
     ],
   },
   {
+    id: 21,
+    title: "Cyborg Head-Cap",
+    image: {
+      main: "v1727958759/Portfolio/Industrial/newHeadcap_vyvbf9.jpg",
+      sub: "v1727958759/Portfolio/Industrial/newHeadCap-2_bvddh3.jpg",
+    },
+    category: "Industrial",
+    description:
+      "Head cap that uses small magnets that allows specific accessories to be attached through the hair of dolls.",
+    url: "https://shop.smartdoll.jp/products/cyborg-head-cap?_pos=62&_sid=3512bc0e9&_ss=r&variant=42613236859034",
+    tags: [
+    ],
+    secondTags: [
+      "Lead Designer",
+      "Production",
+      "Packaging",
+    ],
+  },
+  {
     id: 9,
     title: "Climbing Pickaxe",
     image: {
@@ -245,25 +264,7 @@ export const projectsData = [
       "Prototyping"
     ],
   },
-  {
-    id: 21,
-    title: "Magnetic Head-Cap",
-    image: {
-      main: "v1727958759/Portfolio/Industrial/newHeadcap_vyvbf9.jpg",
-      sub: "v1727958759/Portfolio/Industrial/newHeadCap-2_bvddh3.jpg",
-    },
-    category: "Industrial",
-    description:
-      "Head cap that uses small magnets that allows specific accessories to be attached through the hair of dolls.",
-    url: "https://shop.smartdoll.jp/products/cyborg-head-cap?_pos=62&_sid=3512bc0e9&_ss=r&variant=42613236859034",
-    tags: [
-    ],
-    secondTags: [
-      "Lead Designer",
-      "Production",
-      "Packaging",
-    ],
-  },
+
   {
     id: 11,
     title: "Toro Table",
