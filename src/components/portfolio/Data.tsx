@@ -246,7 +246,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "Magnetic Head-Cap",
     image: {
       main: "v1727958759/Portfolio/Industrial/newHeadcap_vyvbf9.jpg",
