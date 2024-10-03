@@ -245,7 +245,25 @@ export const projectsData = [
       "Prototyping"
     ],
   },
-
+  {
+    id: 20,
+    title: "Magnetic Head-Cap",
+    image: {
+      main: "v1726149357/Portfolio/Industrial/toro-2_glifg9.png",
+      sub: "v1726149356/Portfolio/Industrial/toro-promotional_ygrqvz.png",
+    },
+    category: "Industrial",
+    description:
+      "With the use of CNC machinery, executed the creation of ToroG10 table, which received recognition in Design Week Mexico 2017",
+    url: "",
+    tags: [
+    ],
+    secondTags: [
+      "Woodworking",
+      "Building",
+      "Prototyping",
+    ],
+  },
   {
     id: 11,
     title: "Toro Table",
@@ -437,7 +455,6 @@ export const projectsData = [
       "Directing"
     ],
   },
-
 ]
 
 export const projectsNav = [
