@@ -255,13 +255,13 @@ export const projectsData = [
     category: "Industrial",
     description:
       "Head cap that uses small magnets that allows specific accessories to be attached through the hair of dolls.",
-    url: "",
+    url: "https://shop.smartdoll.jp/products/cyborg-head-cap?_pos=62&_sid=3512bc0e9&_ss=r&variant=42613236859034",
     tags: [
     ],
     secondTags: [
-      "Woodworking",
-      "Building",
-      "Prototyping",
+      "Lead Designer",
+      "Production",
+      "Packaging",
     ],
   },
   {
