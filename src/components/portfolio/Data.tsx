@@ -249,8 +249,8 @@ export const projectsData = [
     id: 20,
     title: "Magnetic Head-Cap",
     image: {
-      main: "v1726149357/Portfolio/Industrial/toro-2_glifg9.png",
-      sub: "v1726149356/Portfolio/Industrial/toro-promotional_ygrqvz.png",
+      main: "v1727958759/Portfolio/Industrial/newHeadcap_vyvbf9.jpg",
+      sub: "v1727958759/Portfolio/Industrial/newHeadCap-2_bvddh3.jpg",
     },
     category: "Industrial",
     description:
