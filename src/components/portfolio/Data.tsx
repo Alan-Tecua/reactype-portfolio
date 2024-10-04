@@ -376,6 +376,29 @@ export const projectsData = [
     ],
   },
   {
+    id: 19,
+    title: "Smartdoll Youtube Channel",
+    image: {
+      main: "v1727599268/Portfolio/Design/yt-thumbnail_rj95vl.png",
+      sub: "v1727599269/Portfolio/Design/yt-thumbnail-3_nz5r6o.png",
+    },
+    category: "Design",
+    description:
+      "Resposible for Filming, Edition, Animation and Sound design for over 18 videos that are in the company official YouTube channel.",
+    url: "https://www.youtube.com/watch?v=JJNIMF5-xTU",
+    tags: [
+      "devicon-illustrator-plain",
+      "devicon-photoshop-plain",
+      "devicon-premierepro-plain",
+      "devicon-aftereffects-plain",
+    ],
+    secondTags: [
+      "Filming",
+      "Edition",
+      "Directing"
+    ],
+  },
+  {
     id: 16,
     title: "Trailer House",
     image: {
